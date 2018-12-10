@@ -1,0 +1,111 @@
+.hero-image {
+  background-image: url("Backgrounds/Desktop/TEP%20Desktop.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.benefits-image {
+  background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 120vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.program-overview-image {
+  background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 70vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.stats-image {
+  background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 90vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.white-header{
+    color: white;
+    font-size: 45px;
+}
+
+.white-sub-header{
+    color: white;
+    font-size: 35px;
+}
+
+.yellow-header{
+    color: #FFCD00;
+    font-size: 45px;
+}
+
+.button-styling {
+    background-color: #005AA1;
+    border-radius: 100px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Interstate;
+}
+
+.container-spacing {
+    margin-left: 10%;
+}
+
+.top-spacing {
+    margin-top: 10%;
+}
+
+.top-header-spacing {
+    margin-top: 3%;
+}
+
+.center{
+    align-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.padding-top{
+    padding-top: 10%;
+}
+
+.interstate {
+    font-family: Interstate;
+}
+
+.interstate-bold {
+    font-family: InterstateBold;
+}
+
+.interstate-light {
+    font-family: InterstateLight;
+}
+
+@font-face {
+font-family: "Interstate";
+src: url("../Fonts/Interstate_Regular.ttf");
+}
+
+@font-face {
+font-family: "InterstateBold";
+src: url("../Fonts/Interstate_Bold.ttf");
+}
+
+@font-face {
+font-family: "InterstateLight";
+src: url("../Fonts/Interstate_Light.ttf");
+}
