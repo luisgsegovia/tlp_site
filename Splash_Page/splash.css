@@ -1,0 +1,90 @@
+.hero-image {
+    background-image: url("./Backgrounds/Desktop/Splash\ Page\ Desktop.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content-padding{
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.rounded-btn-blue {
+    border-radius: 25px;
+    background-color: #056DAE;
+    padding: 10px 30px;
+    color: white;
+}
+
+.rounded-btn-white {
+    background-color: white;
+    border-radius: 25px;
+    color: #53565A;
+    padding: 10px 30px;
+}    
+
+.btn-wrapper {
+    padding-top: 40px;
+}
+
+.splash-intro {
+    color: #FFFFFF;
+}
+
+.splash-logo {
+    height: 106px;
+    float: left;
+}
+
+.icon-img {
+    max-height: 150px;
+}
+
+.program-content {
+    color: #FFFFFF;
+    min-height: 115px;
+}
+
+.program-wrapper {
+    display: table;
+}
+
+.program-info {
+    padding-bottom: 50px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.interstate {
+    font-family: Interstate;
+}
+
+.interstate-bold {
+    font-family: InterstateBold;
+}
+
+.interstate-light {
+    font-family: InterstateLight;
+}
+
+@font-face {
+    font-family: "Interstate";
+    src: url("../Fonts/Interstate_Regular.ttf");
+}
+    
+@font-face {
+    font-family: "InterstateBold";
+    src: url("../Fonts/Interstate_Bold.ttf");
+}
+    
+@font-face {
+    font-family: "InterstateLight";
+    src: url("../Fonts/Interstate_Light.ttf");
+}
