@@ -37,8 +37,12 @@
 .locations-styling {
     background-color: #333333; /* Used if the image is unavailable */
     height: 110vh; /* You must set a specified height */
+}
 
-  }
+.experience-styling {
+    background-color: white;
+    height: 100vh;
+}
 
 .white-header{
     color: white;
@@ -96,6 +100,11 @@
 .svg-scaling {
     width: 350px;
     height: 350px;;
+}
+
+.svg-container-margins {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .interstate {
