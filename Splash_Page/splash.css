@@ -47,7 +47,8 @@
 
 .program-content {
     color: #FFFFFF;
-    min-height: 115px;
+    min-height: 120px;
+    margin-bottom: 20px;
 }
 
 .program-wrapper {
