@@ -8,7 +8,7 @@
 }
 
 .benefits-image {
-  background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
+  background-image: url("Backgrounds/Desktop/Benefits-2.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 120vh; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -34,6 +34,12 @@
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.locations-styling {
+    background-color: #333333; /* Used if the image is unavailable */
+    height: 110vh; /* You must set a specified height */
+
+  }
+
 .white-header{
     color: white;
     font-size: 45px;
@@ -42,6 +48,10 @@
 .white-sub-header{
     color: white;
     font-size: 35px;
+}
+
+.white-font {
+    color: white;
 }
 
 .yellow-header{
@@ -61,7 +71,7 @@
 }
 
 .container-spacing {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .top-spacing {
@@ -75,12 +85,17 @@
 .center{
     align-content: center;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .padding-top{
     padding-top: 10%;
+}
+
+.svg-scaling {
+    width: 350px;
+    height: 350px;;
 }
 
 .interstate {
