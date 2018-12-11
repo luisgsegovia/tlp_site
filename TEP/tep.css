@@ -19,10 +19,16 @@
 .program-overview-image {
   background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 70vh; /* You must set a specified height */
+  height: 85vh; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.roles-styling {
+    background-color: white; /* Used if the image is unavailable */
+    height: 100vh; /* You must set a specified height */
+    padding-top: 30px;
 }
 
 .stats-image {
@@ -36,12 +42,12 @@
 
 .locations-styling {
     background-color: #333333; /* Used if the image is unavailable */
-    height: 110vh; /* You must set a specified height */
+    height: 120vh; /* You must set a specified height */
 }
 
 .experience-styling {
     background-color: white;
-    height: 100vh;
+    height: 110vh;
 }
 
 .white-header{
@@ -74,6 +80,13 @@
     font-family: Interstate;
 }
 
+div.right-side {
+    position: absolute;
+    right: 10%;    
+    width: 600px;
+    height: 120px;
+} 
+
 .container-spacing {
     margin-left: 5%;
 }
@@ -99,7 +112,17 @@
 
 .svg-scaling {
     width: 350px;
-    height: 350px;;
+    height: 350px;
+}
+
+.svg-testimonials-scaling {
+    width: 200px;
+    height: 200px;
+}
+
+.svg-roles-scaling {
+    width: 150px;
+    height: 150px;
 }
 
 .svg-container-margins {
