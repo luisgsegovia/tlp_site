@@ -8,7 +8,7 @@
 }
 
 .benefits-image {
-  background-image: url("Backgrounds/Desktop/Benefits-2.png"); /* The image used */
+  background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 120vh; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -40,9 +40,27 @@
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.hiring-image {
+    background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 120vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
 .locations-styling {
     background-color: #333333; /* Used if the image is unavailable */
     height: 120vh; /* You must set a specified height */
+}
+
+.apply-styling {
+    background-color: #333333; /* Used if the image is unavailable */
+    height: 50vh; /* You must set a specified height */
+}
+
+.testimonial-styling {
+    height: 80vh; /* You must set a specified height */
 }
 
 .experience-styling {
@@ -80,12 +98,38 @@
     font-family: Interstate;
 }
 
-div.right-side {
+.right-side {
     position: absolute;
     right: 10%;    
     width: 600px;
     height: 120px;
 } 
+
+#wrapper ul {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    list-style-type: none;
+}
+
+#wrapper ul li {
+    padding: 30px;
+    margin-bottom: 20px;
+    display: table;
+}
+
+#wrapper ul li img {
+    float: left;
+}
+
+#wrapper ul li .details {
+    width: 80%;
+}
+
+.list-margin {
+    float: right; 
+    margin-left:50%;
+}
 
 .container-spacing {
     margin-left: 5%;

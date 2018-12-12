@@ -48,30 +48,46 @@
     </section>
     
     <section class="benefits-image">
-        <header>
-            <div class="row">
-                <div class="col-lg-12 right-side top-header-spacing">
-                    <div class="col-lg-4"> 
-                        <img class="svg-roles-scaling" src="Icons/Benefits_Section/Exposure.svg">
-                    </div>  
-                    <div class="col-lg-8">
-                        <h3 class="interstate-bold">Development</h3>
-                        <p class="interstate">Benefit from technical training, free access to educational tools, and a culture that values continuous learning.</p>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                    <div class="col-lg-12 right-side top-header-spacing">
-                        <div class="col-lg-4"> 
-                            <img class="svg-roles-scaling" src="Icons/Benefits_Section/Exposure.svg">
-                        </div>  
-                        <div class="col-lg-8">
-                            <h3 class="interstate-bold">Development</h3>
-                            <p class="interstate">Benefit from technical training, free access to educational tools, and a culture that values continuous learning.</p>
-                        </div> 
-                    </div>
-            </div>
-        </header>
+        <div Id="wrapper">
+            <section class="top-header-spacing list-margin">
+                <ul>
+                    <li>
+                        <img src="Icons/Benefits_Section/Exposure.svg" class="list-spacing svg-roles-scaling">
+                        <!-- Wrapped into div -->
+                        <div class="details">
+                            <h3 class="interstate-bold ">Skill Growth</h3>
+                            <h4 class="interstate">Benefit from technical training, free access to educational tools, and a culture that values continuous learning.</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Icons/Benefits_Section/Exposure.svg" class="list-spacing svg-roles-scaling">
+                        <!-- Wrapped into div -->
+                        <div class="details">
+                                <h3 class="interstate-bold ">Support</h3>
+                                <h4 class="interstate">You'll be paired with a career coach who ensures you're getting the most out of your time at Citi.</h4>
+                                <button class="button-styling">Roles</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Icons/Benefits_Section/Community.svg" class="list-spacing svg-roles-scaling">
+                        <!-- Wrapped into div -->
+                        <div class="details">
+                                <h3 class="interstate-bold ">Community</h3>
+                                <h4 class="interstate">Benefit from an expansive network of TEPs, program alumni, mentors, advocates and friends.</h4>
+                                <button class="button-styling">Learn More</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Icons/Benefits_Section/Impact.svg" style="height:125px;" class="list-spacing svg-roles-scaling">
+                        <!-- Wrapped into div -->
+                        <div class="details">
+                                <h3 class="interstate-bold ">Impact</h3>
+                                <h4 class="interstate">Work with global teams to help millions of Citi customers manage their financial lives.</h4>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </section>
     
     <section class="program-overview-image">
@@ -101,12 +117,12 @@
                                 <h3 class="interstate-bold">Data Science</h3>
                                 <p class="interstate">We've got it all, whether it's building features for Citi Mobile on iOS (Swift & X-Code) or Android (Android Studio), creating something new for Citibank Online (Angular), engineering a new microservice (Java, Spring), or working on the back-end systems that power one of the world's biggest financial instituations (Java, SQL, COBOL). We prefer our engineers to be well-rounded, so you'll likely have an opportunity to work on more than one of these.</p>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 top-header-spacing">
                                 <img class="svg-roles-scaling" src="Icons/Possible_Roles_Section/Platform Engineering Icon.svg">
                                 <h3 class="interstate-bold">Platform Engineering</h3>
                                 <p class="interstate">We've got it all, whether it's building features for Citi Mobile on iOS (Swift & X-Code) or Android (Android Studio), creating something new for Citibank Online (Angular), engineering a new microservice (Java, Spring), or working on the back-end systems that power one of the world's biggest financial instituations (Java, SQL, COBOL). We prefer our engineers to be well-rounded, so you'll likely have an opportunity to work on more than one of these.</p>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 top-header-spacing">
                                     <img class="svg-roles-scaling" src="Icons/Possible_Roles_Section/TPM Icon.svg">
                                     <h3 class="interstate-bold">Technical Product Management</h3>
                                 <p class="interstate">We've got it all, whether it's building features for Citi Mobile on iOS (Swift & X-Code) or Android (Android Studio), creating something new for Citibank Online (Angular), engineering a new microservice (Java, Spring), or working on the back-end systems that power one of the world's biggest financial instituations (Java, SQL, COBOL). We prefer our engineers to be well-rounded, so you'll likely have an opportunity to work on more than one of these.</p>
@@ -119,8 +135,9 @@
 
     <section class="stats-image">
         <header>
-            <div class="center">
-            </div>
+                <div class="center">
+                        <h1 class="interstate-bold padding-top white-font">By The Numbers</h1>
+                </div>
         </header>
     </section>
 
@@ -179,22 +196,94 @@
     </section>
 
 
-    <section>
+    <section class="testimonial-styling">
             <header>
                 <div class="center">
                     <h1 class="interstate-bold padding-top">Testimonials</h1>
                 </div>
-                <center>
-                    <div class="row top-header-spacing">
-                        <div class="col-lg-12">
-                            <img class="svg-testimonials-scaling" src="Testimonial/Anish.png">
-                            <h2 class="interstate-bold">Anish LastName</h2>
-                            <h3 class="interstate">Text goes here, all of the text. Every single text for the testimonial. I love Citi. Citi is the GOAT. I literally don't wanna leave the campus ever.</h3>
+                    <center>
+                        <div class="row top-header-spacing svg-container-margins">
+                            <div class="top-header-spacing">
+                                <div class="col-lg-4">
+                                    <img class="svg-testimonials-scaling" src="Testimonial/Anish.png">
+                                    <h2 class="interstate-bold">Anish LastName</h2>
+                                    <h3 class="interstate">Text goes here, all of the text. Every single text for the testimonial. I love Citi. Citi is the GOAT. I literally don't wanna leave the campus ever.</h3>
+                                </div>
+                            </div>
+                                <div class="top-header-spacing">
+                                    <div class="col-lg-4">
+                                        <img class="svg-testimonials-scaling" src="Testimonial/Anish.png">
+                                        <h2 class="interstate-bold">Anish LastName</h2>
+                                        <h3 class="interstate">Text goes here, all of the text. Every single text for the testimonial. I love Citi. Citi is the GOAT. I literally don't wanna leave the campus ever.</h3>
+                                    </div>
+                                </div>
+                                <div class="top-header-spacing">
+                                    <div class="col-lg-4">
+                                        <img class="svg-testimonials-scaling" src="Testimonial/Anish.png">
+                                        <h2 class="interstate-bold">Anish LastName</h2>
+                                        <h3 class="interstate">Text goes here, all of the text. Every single text for the testimonial. I love Citi. Citi is the GOAT. I literally don't wanna leave the campus ever.</h3>
+                                    </div>
+                                </div>
                         </div>
-                    </div>
-                </center>
+                    </center>
             </header>
         </section>
+
+        <section class="hiring-image">
+                <div Id="wrapper">
+                    <section class="top-header-spacing list-margin">
+                        <ul>
+                            <li>
+                                <img src="Icons/Hiring_Process_Section/Qualifications Icon.svg" class="list-spacing svg-roles-scaling">
+                                <!-- Wrapped into div -->
+                                <div class="details">
+                                    <h3 class="interstate-bold ">Qualifications</h3>
+                                    <h4 class="interstate"><strong>Bachelor's/Master's in:</strong> <br>Computer Science, Computer Engineering, or Information Systems</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="Icons/Hiring_Process_Section/Apply Online Icon.svg" class="list-spacing svg-roles-scaling">
+                                <!-- Wrapped into div -->
+                                <div class="details">
+                                        <h3 class="interstate-bold ">Apply Online!</h3>
+                                        <h4 class="interstate">Whether you meet in with a recruiter in person or not, you must apply online to be considered.</h4>
+                                        <button class="button-styling">Apply Here!</button>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="Icons/Hiring_Process_Section/Woman Chat Blue - Hiring Process.svg" class="list-spacing svg-roles-scaling">
+                                <!-- Wrapped into div -->
+                                <div class="details">
+                                        <h3 class="interstate-bold ">Interview</h3>
+                                        <h4 class="interstate">Multi-step interview process including behavioral & technical portions. "Super Day" for final round candidates.</h4>
+                                        <button class="button-styling">Learn More</button>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="Icons/Hiring_Process_Section/Blue Woman.svg" class="list-spacing svg-roles-scaling">
+                                <!-- Wrapped into div -->
+                                <div class="details">
+                                        <h3 class="interstate-bold ">Congrats! You're a TEP.</h3>
+                                        <h4 class="interstate">After accepting the offer, you'll join Citi's elite force of innovation and leadership.</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+
+            <section class="apply-styling">
+                    <header>
+                        <div class="center">
+                            <h1 class="interstate-bold white-sub-header padding-top">Like what you see? Apply!</h1>
+                            <center>
+                                <h3 class="interstate white-font">Apply to all of our programs at once! Send a copy of your resume to <a href="mailto:techtalent@citi.com">techtalent@citi.com</a></h3>
+                                <h3 class="interstate white-font top-spacing">Likewise, you can click through below to get to our official online application.</h3>
+                                <button class="button-styling top-header-spacing">Learn More</button>
+                            </center>
+                        </div>
+                    </header>
+                </section>
 
 </body>
 </html>
