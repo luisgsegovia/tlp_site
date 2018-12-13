@@ -94,7 +94,22 @@
     font-size: 45px;
 }
 
+.overflow{
+    overflow: hidden;
+}
+
 .button-styling {
+    background-color: #005AA1;
+    border-radius: 100px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Interstate;
+}
+
+.hero-button-styling {
     background-color: #005AA1;
     border-radius: 100px;
     color: white;
@@ -300,5 +315,26 @@ src: url("../Fonts/Interstate_Light.ttf");
     .svg-scaling {
         width: 250px;
         height: 250px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .svg-roles-scaling {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .button-styling {
+        background-color: #005AA1;
+        border-radius: 100px;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Interstate;
+        margin-left: 100px;
     }
 }
