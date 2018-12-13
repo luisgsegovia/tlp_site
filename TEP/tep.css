@@ -71,7 +71,7 @@
 
 .experience-styling {
     background-color: white;
-    height: 110vh;
+    height: 90vh;
     display: inline-block;
 }
 
@@ -101,6 +101,7 @@
 .button-styling {
     background-color: #005AA1;
     border-radius: 100px;
+    border: none;
     color: white;
     padding: 10px 25px;
     text-align: center;
@@ -112,6 +113,7 @@
 .hero-button-styling {
     background-color: #005AA1;
     border-radius: 100px;
+    border: none;
     color: white;
     padding: 10px 25px;
     text-align: center;
@@ -239,7 +241,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 @media only screen and (max-width: 576px) {
     .benefits-image {
         background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
-        height: 160vh; /* You must set a specified height */
+        height: 1300px; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
@@ -250,11 +252,11 @@ src: url("../Fonts/Interstate_Light.ttf");
 @media only screen and (max-width: 576px) {
     .hiring-image {
         background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
-        height: 160vh; /* You must set a specified height */
+        height: 1300px; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
-        object-fit: cover;
+        display: inline-block;
     }
 }
 
@@ -338,3 +340,252 @@ src: url("../Fonts/Interstate_Light.ttf");
         margin-left: 100px;
     }
 }
+
+/* Footer Styling */
+
+.footer-logo-container {
+    height: 40px;
+    width: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+    margin: 12px;
+}
+footer a {
+    color: #fff!important;
+    text-decoration: none;
+}
+.footer-nav-responsive {
+    color: #fff;
+    font-size: .95em;
+    margin-right: 8px;
+    font-family: InterstateLight!important;
+    padding-left: 0;
+}
+.footer-social-container {
+    height: 40px;
+    max-height: 40px;
+    width: 75%;
+    display: inline-block;
+    float: right;
+    margin: 12px;
+    color: #fff!important;
+    text-align: right;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+}
+.footer-social ul li {
+    list-style: none!important;
+    display: inline-block!important;
+    white-space: nowrap!important;
+    padding: 8px 10px;
+    font-size: 1.3em;
+}
+.footer-social ul {
+    padding: 0;
+}
+.footer-nav-responsive h3 {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 0 6px 0;
+    font-family: InterstateBold;
+}
+.footer-nav-responsive li {
+    list-style: none;
+    font-size: 1.1em;
+    padding: 6px 0 6px 0;
+}
+.footer-width{
+  max-width: 90%;
+}
+.footer-responsive {
+    padding-top: 10px!important;
+    border-bottom: solid thin #858585;
+    padding-bottom: 20px!important;
+    padding-left: 10px!important;
+}
+.footer-responsive li {
+    display: inline-block;
+    list-style: none;
+    font-size: .9em;
+    margin-right: 25px;
+    font-family: InterstateLight!important;
+}
+p.copyright {
+    margin: 15px 0 0;
+    color: #fff;
+}
+.citilmFooterWrap{
+  padding-top:20px;
+  background-color:#333;
+}
+
+.qualification-arrow-desktop{
+  color: #00B3F0;
+  position: absolute;
+  right: -24px;
+  z-index: 1;
+  top: 50px;
+  font-size: 45px !important;
+}
+
+.qualification-arror-mobile{
+  color: #00B3F0;
+  position: absolute;
+  z-index: 1;
+  font-size: 40px !important;
+  left: 45%;
+  bottom: -19px
+}
+
+/* Mobile Responsive */
+
+.dropdown-apply{
+    background-image:url(../images/arrow-dropdown-down.svg);
+    background-repeat: no-repeat; 
+    padding-right: 42px;
+    background-position: right 10px center;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 7px;
+    font-size: 14px;
+  }
+  .about-us{
+    padding-left: 70px !important;
+  }
+  select::-ms-expand {
+      display: none;
+  }
+  
+  @media only screen 
+  and (min-device-width : 420px) 
+  and (max-device-width : 662px) {
+    .citi-menu ul li {
+        width: 23% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .citi-menu ul li {
+        font-size: 3.5vw !important;
+        width: 23% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 662px) {
+    .about-us{
+      padding-left: 6px !important;
+    }
+    #dynamic-citi-logo{
+      display:none !important;
+    }
+    
+    .dropdown-apply{
+       font-size: 12px !important;
+    }
+    .dropdown-apply{
+        left: 5px;
+    }
+    .main-citi-nav{
+        padding-left: 0px !important;
+    }
+    .nav-width{
+        padding-left: 0 !important;
+    }
+    .nav-apply {
+      display: none !important;
+    }
+    .text-rectangle-first-col {
+        width:30% !important;
+        display:table-cell;;  
+        text-align: center;     
+    }
+    .text-rectangle-second-col {
+        width: 30% !important;
+        display:table-cell;
+        text-align: center;  
+    }
+    .disappear-phone {
+      display:none !important;         
+    }
+    .apply-button{
+      top:60% !important;
+    }
+    .top_title {
+      font-size: 6vw !important;
+    }
+    .mission_desc{
+      font-size: 4vw !important;
+    }
+    .footer-social ul li {
+        padding: 8px 5px !important;
+    }
+    .footer-mobile-only {
+        display: inline-block!important;
+    }
+    .footer-nav-responsive h3 {
+        padding: 15px 0 0px 20px !important;
+        border-top: solid thin #858585;
+    }
+    .footer-nav-responsive div {
+        padding: 15px 0 0px 20px !important;
+        border-top: solid thin #858585;
+    }
+    .footer-responsive li {
+        display: block !important;
+        padding-left:20px !important;
+    }
+    .mission_desc{
+      margin-top: 70px !important;
+    }
+    #margin-top-120 {
+        margin-top: 140px !important;
+    }
+  
+    .apply-text {
+      font-size: 13px;
+    }
+  
+    .apply-title {
+      font-size: 15px;
+    }
+  
+    .text-rectangle {
+      text-align: center;
+    }
+  
+  }
+  @media only screen and (min-width: 650px) {
+  
+    .disappear-computer{
+      display: none !important;
+    }
+  
+    .apply-text{
+      font-size: 16px;
+    }
+  
+    .apply-title {
+      font-size: 20px;
+    }
+  }
+  
+  
+  .disapper-mobile{
+     @media (max-width: @screen-sm-min) {
+        display: none !important;
+     }
+  }
