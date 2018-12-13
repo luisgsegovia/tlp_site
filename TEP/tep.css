@@ -54,11 +54,6 @@
     height: 120vh; /* You must set a specified height */
 }
 
-.apply-styling {
-    background-color: #333333; /* Used if the image is unavailable */
-    height: 50vh; /* You must set a specified height */
-}
-
 .testimonial-styling {
     height: 80vh; /* You must set a specified height */
 }
