@@ -5,6 +5,7 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  display: inline-block;
 }
 
 .benefits-image {
@@ -14,6 +15,7 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  
 }
 
 .program-overview-image {
@@ -23,12 +25,14 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
 .roles-styling {
     background-color: white; /* Used if the image is unavailable */
     height: 100vh; /* You must set a specified height */
     padding-top: 30px;
+    display: inline-block;
 }
 
 .stats-image {
@@ -51,16 +55,24 @@
 
 .locations-styling {
     background-color: #333333; /* Used if the image is unavailable */
-    height: 120vh; /* You must set a specified height */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .testimonial-styling {
     height: 80vh; /* You must set a specified height */
+    display: inline;
 }
 
 .experience-styling {
     background-color: white;
     height: 110vh;
+    display: inline-block;
 }
 
 .white-header{
@@ -157,11 +169,13 @@
 .svg-testimonials-scaling {
     width: 200px;
     height: 200px;
+    max-width: 90%;
 }
 
 .svg-roles-scaling {
     width: 150px;
     height: 150px;
+    max-width: 90%;
 }
 
 .svg-container-margins {
@@ -194,4 +208,97 @@ src: url("../Fonts/Interstate_Bold.ttf");
 @font-face {
 font-family: "InterstateLight";
 src: url("../Fonts/Interstate_Light.ttf");
+}
+
+/* Mobile markup */
+
+@media only screen and (max-width: 576px) {
+    .hero-image {
+        background-image: url("Backgrounds/Mobile/TEP_iPhone_8+.png"); /* The image used */
+        height: 100vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+  }
+@media only screen and (max-width: 576px) {
+    .benefits-image {
+        background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
+        height: 160vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hiring-image {
+        background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
+        height: 160vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .list-margin { 
+        margin: auto;
+    }   
+}
+
+@media only screen and (max-width: 576px){
+    #wrapper ul {
+        padding: 0;
+        margin-top: 120%;
+        width: 100%;
+        list-style-type: none;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #wrapper ul li {
+        padding: 0px;
+        margin-bottom: 20px;
+        display: table;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #wrapper ul li img {
+        float: center;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #wrapper ul li .details {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #wrapper ul li .details {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .center {
+        align-content: center;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .svg-scaling {
+        width: 250px;
+        height: 250px;
+    }
 }
