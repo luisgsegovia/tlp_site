@@ -27,7 +27,7 @@
 
 .btn-wrapper {
     padding-top: 40px;
-    display: inline-block;
+    display: block;
 }
 
 .numbers-font{
@@ -218,6 +218,12 @@ src: url("../Fonts/Interstate_Light.ttf");
     
 @media only screen and (min-width: 320px){
 
+    .hero-button-styling {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    
     .hero-image {
         background-image: url("Backgrounds/Mobile/TEP_iPhone_8+.png"); /* The image used */
         height: 100vh; /* You must set a specified height */
