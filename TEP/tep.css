@@ -1,5 +1,35 @@
 /* Global Styling */
 
+.content-padding{
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.splash-logo {
+    height: 106px;
+    float: left;
+}
+
+.rounded-btn-white {
+    background-color: white;
+    border-radius: 25px;
+    color: #53565A;
+    padding: 10px 30px;
+}  
+
+.rounded-btn-blue {
+    border-radius: 25px;
+    background-color: #056DAE;
+    padding: 10px 30px;
+    color: white;
+}
+
+.btn-wrapper {
+    padding-top: 40px;
+    display: inline-block;
+}
+
 .numbers-font{
     font-size: 60px;
 }
@@ -90,7 +120,7 @@
 }
 
 .top-spacing {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .top-header-spacing {
@@ -187,6 +217,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 /* Mobile Styling */
     
 @media only screen and (min-width: 320px){
+
     .hero-image {
         background-image: url("Backgrounds/Mobile/TEP_iPhone_8+.png"); /* The image used */
         height: 100vh; /* You must set a specified height */
