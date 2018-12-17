@@ -1,71 +1,7 @@
-.hero-image {
-  background-image: url("Backgrounds/Desktop/TEP%20Desktop.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 100vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
+/* Global Styling */
 
-.benefits-image {
-  background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 120vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-.program-overview-image {
-  background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 85vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-.roles-styling {
-    background-color: white; /* Used if the image is unavailable */
-    height: 100vh; /* You must set a specified height */
-    padding-top: 30px;
-}
-
-.stats-image {
-  background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 90vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-.hiring-image {
-    background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 120vh; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-  }
-
-.locations-styling {
-    background-color: #333333; /* Used if the image is unavailable */
-    height: 120vh; /* You must set a specified height */
-}
-
-.apply-styling {
-    background-color: #333333; /* Used if the image is unavailable */
-    height: 50vh; /* You must set a specified height */
-}
-
-.testimonial-styling {
-    height: 80vh; /* You must set a specified height */
-}
-
-.experience-styling {
-    background-color: white;
-    height: 110vh;
+.numbers-font{
+    font-size: 60px;
 }
 
 .white-header{
@@ -87,9 +23,26 @@
     font-size: 45px;
 }
 
+.overflow{
+    overflow: hidden;
+}
+
 .button-styling {
     background-color: #005AA1;
     border-radius: 100px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Interstate;
+}
+
+.hero-button-styling {
+    background-color: #005AA1;
+    border-radius: 100px;
+    border: none;
     color: white;
     padding: 10px 25px;
     text-align: center;
@@ -133,6 +86,7 @@
 
 .container-spacing {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .top-spacing {
@@ -143,6 +97,10 @@
     margin-top: 3%;
 }
 
+.detail-spacing {
+    padding-bottom: 10%;
+}
+
 .center{
     align-content: center;
     text-align: center;
@@ -151,7 +109,7 @@
 }
 
 .padding-top{
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .svg-scaling {
@@ -162,16 +120,41 @@
 .svg-testimonials-scaling {
     width: 200px;
     height: 200px;
+    max-width: 90%;
 }
 
 .svg-roles-scaling {
     width: 150px;
     height: 150px;
+    max-width: 90%;
+}
+
+.svg-hiring-scaling {
+    height: 110px;
+    width: 110px;
 }
 
 .svg-container-margins {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.svg-location-container-margins {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.list-overflow-text{
+    margin-left: 100px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #333333;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .interstate {
@@ -200,3 +183,615 @@ src: url("../Fonts/Interstate_Bold.ttf");
 font-family: "InterstateLight";
 src: url("../Fonts/Interstate_Light.ttf");
 }
+
+/* Mobile Styling */
+    
+@media only screen and (min-width: 320px){
+    .hero-image {
+        background-image: url("Backgrounds/Mobile/TEP_iPhone_8+.png"); /* The image used */
+        height: 100vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .benefits-image {
+        background-image: url("Backgrounds/Mobile/Benefits.png"); /* The image used */
+        height: 1300px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .hiring-image {
+        background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 90vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 85vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .list-margin { 
+        margin: auto;
+    }   
+
+    #wrapper ul {
+        padding: 0;
+        margin-top: 120%;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 0px;
+        margin-bottom: 20px;
+        display: table;
+        margin-right: 3%;
+    }
+
+    #wrapper ul li img {
+        float: center;
+    }
+
+    #wrapper ul li .details {
+        width: 100%;
+        text-align: left;
+    }
+
+    #wrapper ul li .details {
+        width: 100%;
+        text-align: left;
+    }
+
+    .center {
+        align-content: center;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .svg-scaling {
+        width: 250px;
+        height: 250px;
+    }
+
+    .svg-roles-scaling {
+        width: 100px;
+        height: 100px;
+    }
+
+    .button-styling {
+        background-color: #005AA1;
+        border-radius: 100px;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Interstate;
+        margin-left: 100px;
+    }
+}
+
+
+/* Tablet Styling */
+
+@media only screen and (min-width: 768px){
+    .hero-image {
+        background-image: url("Backgrounds/Tablet/TEP_iPad.png"); /* The image used */
+        height: 100vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image{
+        background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
+        height: 1300px; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    #wrapper ul {
+        padding: 0;
+        margin-top: 65%;
+        width: 58%;
+        margin-left: 40%;
+        list-style-type: none;
+    }
+
+
+    .program-overview-image{
+        background-image: url(Backgrounds/Desktop/Full-Time.png);
+        background-color: #cccccc;
+        height: 65vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        height: 85vh;
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Tablet/Hiring.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100%; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 50vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      } 
+}
+
+/* Regular Desktop Styling */
+@media only screen and (min-width: 900px){
+    #wrapper ul {
+        padding: 0;
+        margin: auto;
+        width: 80%;
+        margin-left: 35%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 30px;
+        margin-bottom: 20px;
+        display: table;
+    }
+
+    #wrapper ul li img {
+        float: left;
+    }
+
+    #wrapper ul li .details {
+        width: 80%;
+    }
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        height: 110vh;
+    }
+
+    .list-margin { 
+        margin-top: 5%;
+    }
+
+    .padding-top{
+        padding-top: 5%;
+    }
+}
+
+/* Large Desktop Styling */
+
+@media only screen and (min-width: 1024px){
+    .hero-image {
+        background-image: url("Backgrounds/Desktop/TEP%20Desktop.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image {
+        background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 120vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 80vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .roles-styling {
+        background-color: white; /* Used if the image is unavailable */
+        height: 90vh; /* You must set a specified height */
+        display: inline-block;
+    }   
+
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 70vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 110vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .locations-styling {
+        background-color: #333333;
+        height: 70vh;
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    .testimonial-styling {
+        height: 95vh; /* You must set a specified height */
+        display: inline;
+        background-color: #333333;
+    }
+
+
+    .experience-styling {
+        background-color: white;
+        height: 80vh;
+        display: inline-block;
+    }
+
+    #wrapper ul {
+        padding: 0;
+        margin: auto;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 0px;
+        margin-bottom: 60px;
+        display: table;
+    }
+
+    #wrapper ul li img {
+        float: left;
+    }
+
+    #wrapper ul li .details {
+        width: 80%;
+    }
+
+    .list-margin { 
+        margin-top: 5%;
+        margin-left: 50%;
+    } 
+
+    .padding-top{
+        padding-top: 5%;
+    }
+    
+}
+
+/* Footer Styling */
+
+.footer-logo-container {
+    height: 40px;
+    width: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+    margin: 12px;
+}
+footer a {
+    color: #fff!important;
+    text-decoration: none;
+}
+.footer-nav-responsive {
+    color: #fff;
+    font-size: .95em;
+    margin-right: 8px;
+    font-family: InterstateLight!important;
+    padding-left: 0;
+}
+.footer-social-container {
+    height: 40px;
+    max-height: 40px;
+    width: 75%;
+    display: inline-block;
+    float: right;
+    margin: 12px;
+    color: #fff!important;
+    text-align: right;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+}
+.footer-social ul li {
+    list-style: none!important;
+    display: inline-block!important;
+    white-space: nowrap!important;
+    padding: 8px 10px;
+    font-size: 1.3em;
+}
+.footer-social ul {
+    padding: 0;
+}
+.footer-nav-responsive h3 {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 0 6px 0;
+    font-family: InterstateBold;
+}
+.footer-nav-responsive li {
+    list-style: none;
+    font-size: 1.1em;
+    padding: 6px 0 6px 0;
+}
+.footer-width{
+  max-width: 90%;
+}
+.footer-responsive {
+    padding-top: 10px!important;
+    border-bottom: solid thin #858585;
+    padding-bottom: 20px!important;
+    padding-left: 10px!important;
+}
+.footer-responsive li {
+    display: inline-block;
+    list-style: none;
+    font-size: .9em;
+    margin-right: 25px;
+    font-family: InterstateLight!important;
+}
+p.copyright {
+    margin: 15px 0 0;
+    color: #fff;
+}
+.citilmFooterWrap{
+  padding-top:20px;
+  background-color:#333;
+}
+
+.qualification-arrow-desktop{
+  color: #00B3F0;
+  position: absolute;
+  right: -24px;
+  z-index: 1;
+  top: 50px;
+  font-size: 45px !important;
+}
+
+.qualification-arror-mobile{
+  color: #00B3F0;
+  position: absolute;
+  z-index: 1;
+  font-size: 40px !important;
+  left: 45%;
+  bottom: -19px
+}
+
+/* Mobile Responsive */
+
+.dropdown-apply{
+    background-image:url(../images/arrow-dropdown-down.svg);
+    background-repeat: no-repeat; 
+    padding-right: 42px;
+    background-position: right 10px center;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 7px;
+    font-size: 14px;
+  }
+  .about-us{
+    padding-left: 70px !important;
+  }
+  select::-ms-expand {
+      display: none;
+  }
+  
+  @media only screen 
+  and (min-device-width : 420px) 
+  and (max-device-width : 662px) {
+    .citi-menu ul li {
+        width: 23% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .citi-menu ul li {
+        font-size: 3.5vw !important;
+        width: 23% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 662px) {
+    .about-us{
+      padding-left: 6px !important;
+    }
+    #dynamic-citi-logo{
+      display:none !important;
+    }
+    
+    .dropdown-apply{
+       font-size: 12px !important;
+    }
+    .dropdown-apply{
+        left: 5px;
+    }
+    .main-citi-nav{
+        padding-left: 0px !important;
+    }
+    .nav-width{
+        padding-left: 0 !important;
+    }
+    .nav-apply {
+      display: none !important;
+    }
+    .text-rectangle-first-col {
+        width:30% !important;
+        display:table-cell;;  
+        text-align: center;     
+    }
+    .text-rectangle-second-col {
+        width: 30% !important;
+        display:table-cell;
+        text-align: center;  
+    }
+    .disappear-phone {
+      display:none !important;         
+    }
+    .apply-button{
+      top:60% !important;
+    }
+    .top_title {
+      font-size: 6vw !important;
+    }
+    .mission_desc{
+      font-size: 4vw !important;
+    }
+    .footer-social ul li {
+        padding: 8px 5px !important;
+    }
+    .footer-mobile-only {
+        display: inline-block!important;
+    }
+    .footer-nav-responsive h3 {
+        padding: 15px 0 0px 20px !important;
+        border-top: solid thin #858585;
+    }
+    .footer-nav-responsive div {
+        padding: 15px 0 0px 20px !important;
+        border-top: solid thin #858585;
+    }
+    .footer-responsive li {
+        display: block !important;
+        padding-left:20px !important;
+    }
+    .mission_desc{
+      margin-top: 70px !important;
+    }
+    #margin-top-120 {
+        margin-top: 140px !important;
+    }
+  
+    .apply-text {
+      font-size: 13px;
+    }
+  
+    .apply-title {
+      font-size: 15px;
+    }
+  
+    .text-rectangle {
+      text-align: center;
+    }
+  
+  }
+  @media only screen and (min-width: 650px) {
+  
+    .disappear-computer{
+      display: none !important;
+    }
+  
+    .apply-text{
+      font-size: 16px;
+    }
+  
+    .apply-title {
+      font-size: 20px;
+    }
+  }
+  
+  
+  .disapper-mobile{
+     @media (max-width: @screen-sm-min) {
+        display: none !important;
+     }
+  }
