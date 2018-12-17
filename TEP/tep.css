@@ -1,79 +1,4 @@
-.hero-image {
-  background-image: url("Backgrounds/Desktop/TEP%20Desktop.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 100vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  display: inline-block;
-}
-
-.benefits-image {
-  background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 120vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  
-}
-
-.program-overview-image {
-  background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 85vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-
-}
-
-.roles-styling {
-    background-color: white; /* Used if the image is unavailable */
-    height: 100vh; /* You must set a specified height */
-    padding-top: 30px;
-    display: inline-block;
-}
-
-.stats-image {
-  background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 90vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-.hiring-image {
-    background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 120vh; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-  }
-
-.locations-styling {
-    background-color: #333333; /* Used if the image is unavailable */
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.testimonial-styling {
-    height: 80vh; /* You must set a specified height */
-    display: inline;
-}
-
-.experience-styling {
-    background-color: white;
-    height: 90vh;
-    display: inline-block;
-}
+/* Global Styling */
 
 .numbers-font{
     font-size: 60px;
@@ -232,18 +157,18 @@ font-family: "InterstateLight";
 src: url("../Fonts/Interstate_Light.ttf");
 }
 
-/* Mobile markup */
-
-@media only screen and (min-width: 320px) {
+/* Mobile Styling */
+    
+@media only screen and (min-width: 320px){
     .hero-image {
         background-image: url("Backgrounds/Mobile/TEP_iPhone_8+.png"); /* The image used */
         height: 100vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
     }
-  }
-@media only screen and (min-width: 320px) {
+
     .benefits-image {
         background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
         height: 1300px; /* You must set a specified height */
@@ -252,9 +177,7 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-size: cover; /* Resize the background image to cover the entire container */
         display: inline-block;
     }
-}
 
-@media only screen and (min-width: 320px) {
     .hiring-image {
         background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
         height: 1300px; /* You must set a specified height */
@@ -263,53 +186,68 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-size: cover; /* Resize the background image to cover the entire container */
         display: inline-block;
     }
-}
 
-@media only screen and (min-width: 320px) {
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 90vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 85vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
     .list-margin { 
         margin: auto;
     }   
-}
 
-@media only screen and (min-width: 320px){
     #wrapper ul {
         padding: 0;
         margin-top: 120%;
         width: 100%;
         list-style-type: none;
     }
-}
 
-@media only screen and (min-width: 320px){
     #wrapper ul li {
         padding: 0px;
         margin-bottom: 20px;
         display: table;
         margin-right: 3%;
     }
-}
 
-@media only screen and (min-width: 320px){
     #wrapper ul li img {
         float: center;
     }
-}
 
-@media only screen and (min-width: 320px){
     #wrapper ul li .details {
         width: 100%;
         text-align: left;
     }
-}
 
-@media only screen and (min-width: 320px){
     #wrapper ul li .details {
         width: 100%;
         text-align: left;
     }
-}
 
-@media only screen and (min-width: 320px){
     .center {
         align-content: center;
         text-align: center;
@@ -317,23 +255,17 @@ src: url("../Fonts/Interstate_Light.ttf");
         margin-right: 10%;
         
     }
-}
 
-@media only screen and (min-width: 320px) {
     .svg-scaling {
         width: 250px;
         height: 250px;
     }
-}
 
-@media only screen and (min-width: 320px) {
     .svg-roles-scaling {
         width: 100px;
         height: 100px;
     }
-}
 
-@media only screen and (min-width: 320px) {
     .button-styling {
         background-color: #005AA1;
         border-radius: 100px;
@@ -348,30 +280,31 @@ src: url("../Fonts/Interstate_Light.ttf");
 }
 
 
-/* Tablet Markup */
+/* Tablet Styling */
 
 @media only screen and (min-width: 768px){
     .hero-image {
         background-image: url("Backgrounds/Tablet/TEP_iPad.png"); /* The image used */
         height: 100vh; /* You must set a specified height */
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
-    }
-}
-
-@media only screen and (min-width: 768px){
-    .benefits-image{
-        background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
-        height: 1300px; /* You must set a specified height */
+        width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
         display: inline-block;
     }
-}
 
-@media only screen and (min-width: 768px){
+
+    .benefits-image{
+        background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
+        height: 1300px; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
     #wrapper ul {
         padding: 0;
         margin-top: 65%;
@@ -379,20 +312,20 @@ src: url("../Fonts/Interstate_Light.ttf");
         margin-left: 40%;
         list-style-type: none;
     }
-}
 
-@media only screen and (min-width: 768px){
+
     .program-overview-image{
         background-image: url(Backgrounds/Desktop/Full-Time.png);
         background-color: #cccccc;
         height: 65vh;
+        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-}
 
-@media only screen and (min-width: 768px) {
+
+
     .locations-styling {
         background-color: #333333; /* Used if the image is unavailable */
         display: -webkit-box;
@@ -404,28 +337,172 @@ src: url("../Fonts/Interstate_Light.ttf");
         justify-content: space-around;
         height: 85vh;
     }
-}
 
-@media only screen and (min-width: 768px){
+
     .hiring-image {
         background-image: url("Backgrounds/Tablet/Hiring.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 120vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 50vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      } 
+}
+
+/* Regular Desktop Styling */
+@media only screen and (min-width: 900px){
+    #wrapper ul {
+        padding: 0;
+        margin: auto;
+        width: 80%;
+        margin-left: 35%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 30px;
+        margin-bottom: 20px;
+        display: table;
+    }
+
+    #wrapper ul li img {
+        float: left;
+    }
+
+    #wrapper ul li .details {
+        width: 80%;
+    }
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        height: 110vh;
+    }
+}
+
+/* Large Desktop Styling */
+
+@media only screen and (min-width: 1024px){
+    .hero-image {
+        background-image: url("Backgrounds/Desktop/TEP%20Desktop.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image {
+        background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
         height: 120vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
     }
-}
 
-@media only screen and (min-width: 768px) {
-    .stats-image {
-        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 50vh; /* You must set a specified height */
+        height: 110vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
-      } 
+    }
+
+
+    .roles-styling {
+        background-color: white; /* Used if the image is unavailable */
+        height: 100vh; /* You must set a specified height */
+        padding-top: 30px;
+        display: inline-block;
+    }   
+
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 90vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 120vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+
+    .testimonial-styling {
+        height: 80vh; /* You must set a specified height */
+        display: inline;
+    }
+
+
+    .experience-styling {
+        background-color: white;
+        height: 90vh;
+        display: inline-block;
+    }
+
+    #wrapper ul {
+        padding: 0;
+        margin: auto;
+        width: 80%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 30px;
+        margin-bottom: 20px;
+        display: table;
+    }
+
+    #wrapper ul li img {
+        float: left;
+    }
+
+    #wrapper ul li .details {
+        width: 80%;
+    }
 }
 
 /* Footer Styling */
