@@ -395,6 +395,14 @@ src: url("../Fonts/Interstate_Light.ttf");
         justify-content: space-around;
         height: 110vh;
     }
+
+    .list-margin { 
+        margin-top: 5%;
+    }
+
+    .padding-top{
+        padding-top: 5%;
+    }
 }
 
 /* Large Desktop Styling */
@@ -468,11 +476,12 @@ src: url("../Fonts/Interstate_Light.ttf");
         display: flex;
         -webkit-flex-flow: row wrap;
         justify-content: space-around;
+        height: 95vh;
     }
 
 
     .testimonial-styling {
-        height: 80vh; /* You must set a specified height */
+        height: 95vh; /* You must set a specified height */
         display: inline;
     }
 
@@ -502,6 +511,14 @@ src: url("../Fonts/Interstate_Light.ttf");
 
     #wrapper ul li .details {
         width: 80%;
+    }
+
+    .list-margin { 
+        margin-top: 5;
+    } 
+
+    .padding-top{
+        padding-top: 10%;
     }
 }
 

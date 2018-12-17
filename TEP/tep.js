@@ -1,17 +1,25 @@
-<script>
-    $(document).ready(function() {
 
-    $(window).scroll(function() {
+        let menuIcon = document.querySelector('.menuIcon');
+        let nav = document.querySelector('.overlay-menu');
 
-        var height = $('.first-container').height();
-        var scrollTop = $(window).scrollTop();
+        menuIcon.addEventListener('click', () => {
+            if (nav.style.transform != 'translateX(0%)') {
+                nav.style.transform = 'translateX(0%)';
+                nav.style.transition = 'transform 0.2s ease-out';
+            } else { 
+                nav.style.transform = 'translateX(-100%)';
+                nav.style.transition = 'transform 0.2s ease-out';
+            }
+        });
 
-        if (scrollTop >= height - 40) {
-            $('.nav-container').addClass('solid-nav');
-        } else {
-            $('.nav-container').removeClass('solid-nav');
-        }
 
-    });
-});
-</script>
+        // Toggle Menu Icon ========================================
+        let toggleIcon = document.querySelector('.menuIcon');
+
+        toggleIcon.addEventListener('click', () => {
+            if (toggleIcon.className != 'menuIcon toggle') {
+                toggleIcon.className += ' toggle';
+            } else {
+                toggleIcon.className = 'menuIcon';
+            }
+        });
