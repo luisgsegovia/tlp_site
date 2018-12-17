@@ -448,11 +448,11 @@ src: url("../Fonts/Interstate_Light.ttf");
 
     .benefits-image {
         background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
-        background-color: #cccccc; /* Used if the image is unavailable */
+        background-color: #ffffff; /* Used if the image is unavailable */
         height: 120vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
+        background-size: contain; /* Resize the background image to cover the entire container */
         display: inline-block;
     }
 
