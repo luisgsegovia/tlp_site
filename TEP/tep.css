@@ -434,7 +434,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 
 /* Large Desktop Styling */
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1200px){
     .hero-image {
         background-image: url("Backgrounds/Desktop/TEP%20Desktop.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
