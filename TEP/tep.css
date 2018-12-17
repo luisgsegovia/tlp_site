@@ -97,6 +97,10 @@
     margin-top: 3%;
 }
 
+.detail-spacing {
+    padding-bottom: 10%;
+}
+
 .center{
     align-content: center;
     text-align: center;
@@ -256,7 +260,7 @@ src: url("../Fonts/Interstate_Light.ttf");
         display: table;
         margin-right: 3%;
     }
-    
+
     #wrapper ul li img {
         float: center;
     }
@@ -449,6 +453,7 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
     }
 
 
@@ -482,7 +487,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .hiring-image {
         background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 105vh; /* You must set a specified height */
+        height: 110vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
@@ -519,7 +524,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 
     #wrapper ul li {
         padding: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 60px;
         display: table;
     }
 
