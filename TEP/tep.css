@@ -7,7 +7,7 @@
 }
 
 .splash-logo {
-    height: 106px;
+    height: 85px;
     float: left;
 }
 
@@ -523,11 +523,11 @@ src: url("../Fonts/Interstate_Light.ttf");
 
     .hiring-image {
         background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
-        background-color: #cccccc; /* Used if the image is unavailable */
+        background-color: white; /* Used if the image is unavailable */
         height: 110vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
+        background-size: contain; /* Resize the background image to cover the entire container */
     }
 
 
@@ -573,13 +573,22 @@ src: url("../Fonts/Interstate_Light.ttf");
         width: 80%;
     }
 
+    .list-margin-hiring { 
+        margin-left: 50%;
+    } 
+
     .list-margin { 
         margin-top: 5%;
-        margin-left: 50%;
+        margin-left: 55%;
     } 
 
     .padding-top{
         padding-top: 5%;
+    }
+
+    .svg-container-margins {
+        margin-left: 3%;
+        margin-right: 3%;
     }
     
 }
