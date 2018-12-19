@@ -416,28 +416,50 @@ src: url("../Fonts/Interstate_Light.ttf");
 }
 
 /* Regular Desktop Styling */
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 850px){
+    .hero-image {
+        background-image: url("Backgrounds/Tablet/TEP_iPad.png"); /* The image used */
+        height: 80vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image{
+        background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
     #wrapper ul {
         padding: 0;
-        margin: auto;
-        width: 80%;
-        margin-left: 35%;
+        margin-top: 45%;
+        width: 60%;
+        margin-left: 40%;
         list-style-type: none;
     }
 
-    #wrapper ul li {
-        padding: 30px;
-        margin-bottom: 20px;
-        display: table;
+    .benefits-width {
+        width: 70% !important;
     }
 
-    #wrapper ul li img {
-        float: left;
+    .program-overview-image{
+        background-image: url(Backgrounds/Desktop/Full-Time.png);
+        background-color: #cccccc;
+        height: 35vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    #wrapper ul li .details {
-        width: 80%;
-    }
+
 
     .locations-styling {
         background-color: #333333; /* Used if the image is unavailable */
@@ -448,16 +470,34 @@ src: url("../Fonts/Interstate_Light.ttf");
         display: flex;
         -webkit-flex-flow: row wrap;
         justify-content: space-around;
-        height: 110vh;
+        height: 100%;
     }
 
-    .list-margin { 
-        margin-top: 5%;
+
+    .hiring-image {
+        background-image: url("Backgrounds/Tablet/Hiring.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
     }
 
-    .padding-top{
-        padding-top: 5%;
-    }
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 35vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      } 
+
+      .svg-container-margins {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+      }
 }
 
 /* Large Desktop Styling */
