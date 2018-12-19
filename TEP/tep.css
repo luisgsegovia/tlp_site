@@ -30,6 +30,12 @@
     display: block;
 }
 
+.row {
+    margin-left: -15px;
+    margin-right: 0px;
+}
+
+
 .numbers-font{
     font-size: 60px;
 }
@@ -452,7 +458,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .program-overview-image{
         background-image: url(Backgrounds/Desktop/Full-Time.png);
         background-color: #cccccc;
-        height: 35vh;
+        height: 100%;
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -486,7 +492,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .stats-image {
         background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 35vh; /* You must set a specified height */
+        height: 100%; /* You must set a specified height */
         width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
@@ -584,7 +590,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     #wrapper ul {
         padding: 0;
         margin: auto;
-        width: 100%;
+        width: 100% !important;
         list-style-type: none;
     }
 
@@ -617,6 +623,136 @@ src: url("../Fonts/Interstate_Light.ttf");
     .list-margin { 
         margin-top: 5%;
         margin-left: 55%;
+    } 
+
+    .padding-top{
+        padding-top: 5%;
+    }
+
+    .svg-container-margins {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+}
+
+/* Extra Large Desktop */
+@media only screen and (min-width: 1500px){
+    .hero-image {
+        background-image: url("Backgrounds/Desktop/TEP%20Desktop.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image {
+        background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
+        background-color: white;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 80vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .roles-styling {
+        background-color: white; /* Used if the image is unavailable */
+        height: 90vh; /* You must set a specified height */
+        display: inline-block;
+    }   
+
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 70vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
+        background-color: white; /* Used if the image is unavailable */
+        height: 110vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+    }
+
+
+    .locations-styling {
+        background-color: #333333;
+        height: 70vh;
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    .testimonial-styling {
+        height: 95vh; /* You must set a specified height */
+        display: inline;
+        background-color: #333333;
+    }
+
+
+    .experience-styling {
+        background-color: white;
+        height: 80vh;
+        display: inline-block;
+    }
+
+    #wrapper ul {
+        padding: 0;
+        margin: auto;
+        width: 100% !important;
+        margin-left: 50%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 0px;
+        margin-bottom: 60px;
+        display: table;
+    }
+
+    #wrapper ul li img {
+        float: left;
+    }
+
+    #wrapper ul li .details {
+        width: 100%;
+    }
+
+    .list-margin-hiring { 
+        margin-left: 50%;
+    } 
+
+    .list-margin-benefits {
+        padding: 0; 
+        margin: auto;
+        width: 100%;
+        margin-left: 100%;
+        list-style-type: none;
+    }
+    
+    .list-margin { 
+        margin-top: 5%;
+        margin-left: 75%;
     } 
 
     .padding-top{
