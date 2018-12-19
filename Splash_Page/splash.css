@@ -129,7 +129,7 @@ footer a {
     max-height: 40px;
     width: 75%;
     display: inline-block;
-    /* float: right; */
+    float: right;
     margin: 12px;
     color: #fff!important;
     text-align: right;
@@ -264,9 +264,9 @@ p.copyright {
         display:table-cell;
         text-align: center;  
     }
-    .disappear-phone {
+    /* .disappear-phone {
       display:none !important;         
-    }
+    } */
     .apply-button{
       top:60% !important;
     }
@@ -754,7 +754,7 @@ p.copyright {
       color: #fff;
       font-size: .95em;
       margin-right: 8px;
-      font-family: Interstate_Light!important;
+      font-family: InterstateLight!important;
       padding-left: 0;
   }
   .footer-social-container {
@@ -790,7 +790,7 @@ p.copyright {
       color: #fff;
       font-size: 1.2em;
       padding: 0 0 6px 0;
-      font-family: Interstate_Bold;
+      font-family: InterstateBold;
   }
   .footer-nav-responsive li {
       list-style: none;
@@ -811,7 +811,7 @@ p.copyright {
       list-style: none;
       font-size: .9em;
       margin-right: 25px;
-      font-family: Interstate_Light!important;
+      font-family: InterstateLight!important;
   }
   p.copyright {
       margin: 15px 0 0;

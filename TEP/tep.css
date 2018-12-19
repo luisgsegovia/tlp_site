@@ -943,9 +943,9 @@ p.copyright {
         display:table-cell;
         text-align: center;  
     }
-    .disappear-phone {
+    /* .disappear-phone {
       display:none !important;         
-    }
+    } */
     .apply-button{
       top:60% !important;
     }
