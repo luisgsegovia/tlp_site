@@ -343,7 +343,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 @media only screen and (min-width: 768px){
     .hero-image {
         background-image: url("Backgrounds/Tablet/TEP_iPad.png"); /* The image used */
-        height: 100vh; /* You must set a specified height */
+        height: 100%; /* You must set a specified height */
         width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
@@ -354,11 +354,9 @@ src: url("../Fonts/Interstate_Light.ttf");
 
     .benefits-image{
         background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
-        height: 1300px; /* You must set a specified height */
-        width: 100%;
-        background-position: center; /* Center the image */
+        height: 100%; /* You must set a specified height */
         background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
+        background-size: contain; /* Resize the background image to cover the entire container */
         display: inline-block;
     }
 
@@ -375,7 +373,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .program-overview-image{
         background-image: url(Backgrounds/Desktop/Full-Time.png);
         background-color: #cccccc;
-        height: 65vh;
+        height: 100%;
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -393,24 +391,23 @@ src: url("../Fonts/Interstate_Light.ttf");
         display: flex;
         -webkit-flex-flow: row wrap;
         justify-content: space-around;
-        height: 85vh;
+        height: 100%;
     }
 
 
     .hiring-image {
         background-image: url("Backgrounds/Tablet/Hiring.png"); /* The image used */
-        background-color: #cccccc; /* Used if the image is unavailable */
         height: 100%; /* You must set a specified height */
-        width: 100%;
-        background-position: center; /* Center the image */
+        
         background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
     }
 
     .stats-image {
         background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 50vh; /* You must set a specified height */
+        height: 100%; /* You must set a specified height */
         width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
@@ -479,12 +476,10 @@ src: url("../Fonts/Interstate_Light.ttf");
 
     .benefits-image {
         background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
-        background-color: #ffffff; /* Used if the image is unavailable */
-        height: 120vh; /* You must set a specified height */
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: contain; /* Resize the background image to cover the entire container */
-        display: inline-block;
+        background-color: white;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
@@ -564,13 +559,21 @@ src: url("../Fonts/Interstate_Light.ttf");
     }
 
     #wrapper ul li .details {
-        width: 80%;
+        width: 100%;
     }
 
     .list-margin-hiring { 
         margin-left: 50%;
     } 
 
+    .list-margin-benefits {
+        padding: 0; 
+        margin: auto;
+        width: 100%;
+        margin-left: 80%;
+        list-style-type: none;
+    }
+    
     .list-margin { 
         margin-top: 5%;
         margin-left: 55%;
