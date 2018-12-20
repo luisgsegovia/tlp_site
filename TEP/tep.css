@@ -346,7 +346,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 
 /* Tablet Styling */
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 500px){
     .hero-image {
         background-image: url("Backgrounds/Tablet/TEP_iPad.png"); /* The image used */
         height: 100%; /* You must set a specified height */
