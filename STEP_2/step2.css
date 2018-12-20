@@ -6,9 +6,19 @@
     padding-left: 5%;
 }
 
+.icon-padding{
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
 .splash-logo {
     height: 85px;
     float: left;
+}
+
+.text-margin {
+    margin-bottom: 10%;
 }
 
 .rounded-btn-white {
@@ -304,7 +314,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 
     #wrapper ul {
         padding: 0;
-        margin-top: 120%;
+        margin-top: 100%;
         width: 100%;
         list-style-type: none;
     }
@@ -338,6 +348,11 @@ src: url("../Fonts/Interstate_Light.ttf");
         height: 250px;
     }
 
+    .svg-experience-scaling {
+        width: 120px;
+        height: 250px;
+    }
+
     .svg-roles-scaling {
         width: 100px;
         height: 100px;
@@ -359,10 +374,10 @@ src: url("../Fonts/Interstate_Light.ttf");
 
 /* Tablet Styling */
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 500px){
     .hero-image {
         background-image: url("Backgrounds/Tablet/STEP_2_iPad.png"); /* The image used */
-        height: 100%; /* You must set a specified height */
+        height: 100vh; /* You must set a specified height */
         width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
@@ -438,7 +453,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 @media only screen and (min-width: 850px){
     .hero-image {
         background-image: url("Backgrounds/Tablet/STEP_2_iPad.png"); /* The image used */
-        height: 80vh; /* You must set a specified height */
+        height: 100vh; /* You must set a specified height */
         width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */

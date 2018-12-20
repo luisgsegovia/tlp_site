@@ -1,19 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542 542">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 352">
   <defs>
     <style>
       .cls-1 {
         fill: #c79d1f;
       }
-
-      .cls-2 {
-        fill: none;
-      }
     </style>
   </defs>
-  <g id="Test" transform="translate(7791 -9037)">
+  <g id="Test" transform="translate(7712 -9132)">
     <path id="Rectangle_87" data-name="Rectangle 87" class="cls-1" d="M0,0H355V37a10,10,0,0,1-10,10H10A10,10,0,0,1,0,37Z" transform="translate(-7698 9369)"/>
     <g id="Group_304" data-name="Group 304">
-      <rect id="Rectangle_86" data-name="Rectangle 86" class="cls-2" width="542" height="542" transform="translate(-7791 9037)"/>
       <g id="Group_303" data-name="Group 303">
         <g id="web" transform="translate(-7760 9132)">
           <g id="Group_272" data-name="Group 272">
