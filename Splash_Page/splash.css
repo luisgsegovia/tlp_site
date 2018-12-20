@@ -50,6 +50,14 @@
     padding-left: 15%;
 }
 
+.row-div-spacing {
+    margin-top: 3%;
+}
+
+.text-spacing {
+    margin-top: 3%;
+}
+
 .rounded-btn-blue {
     border-radius: 25px;
     background-color: #056DAE;
@@ -73,7 +81,7 @@
 }
 
 .splash-logo {
-    height: 106px;
+    height: 85px;
     float: left !important; 
 }
 
