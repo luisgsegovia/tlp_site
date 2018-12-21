@@ -236,36 +236,44 @@
 
             <!-- Results tab -->
             <div class="tab">
-               <p class="message"><span id="decision"></span> might be the best fit for you! But you can also click
-                  here to see all of our programs.</p>
+               <p class="message" id="finalMessage"><span id="decision"></span> might be the best fit for you! But you can also click
+                  below to see all of our programs.</p>
 
                <!-- TEP -->
                <div class="results-card" id="card1">
-                  <img src="Icons/TEP.svg" class="results-card-icon">
+                  <img src="Icons/TEP Results/TEP Grey.svg" class="results-card-icon">
                   <p class="results-card-title">Technology Engineering Program</p>
-                  <p class="results-card-subtitle">Dive straight into a role like software engineering, data science or product management. TEP is for those who want to build deep technical skills in a particular area. (Full Time: For recent college graduates)</p>
+                  <p class="results-card-subtitle">Dive straight into a role like software engineering, data science or
+                     product management. TEP is for those who want to build deep technical skills in a particular area.
+                     (Full Time: For recent college graduates)</p>
                </div>
 
                <!-- TLP -->
                <div class="results-card" id="card2">
                   <img src="Icons/TLP Results/TLP Grey.svg" class="results-card-icon">
                   <p class="results-card-title">Technology Leadership Program</p>
-                  <p class="results-card-subtitle">Chart your own career path by completing three eight-month rotations in the roles of your choice! TLP is about breadth, flexibility, and leadership development. (Full Time: For recent college graduates)</p>
+                  <p class="results-card-subtitle">Chart your own career path by completing three eight-month rotations
+                     in the roles of your choice! TLP is about breadth, flexibility, and leadership development. (Full
+                     Time: For recent college graduates)</p>
                </div>
 
                <!-- Step 1 -->
                <div class="results-card" id="card3">
                   <img src="Icons/STEP 1 or 2 Results/STEP 1 Grey.svg" class="results-card-icon">
                   <p class="results-card-title">STEP 1</p>
-                  <p class="results-card-subtitle">Your journey to a tech career starts here! STEP 1 interns work on group projects that make a real impact, and receive mentoring and career counseling. (Internship: For freshmen and sophomores)</p>
+                  <p class="results-card-subtitle">Your journey to a tech career starts here! STEP 1 interns work on
+                     group projects that make a real impact, and receive mentoring and career counseling. (Internship:
+                     For freshmen and sophomores)</p>
                </div>
 
                <!-- Step 2 -->
                <div class="results-card" id="card4">
                   <img src="Icons/STEP 1 or 2 Results/STEP 2 Grey.svg" class="results-card-icon">
                   <p class="results-card-title">STEP 2</p>
-                  <p class="results-card-subtitle">Tackle a role like a full-time employee for 10 weeks. STEP 2 drops you straight into a team of employees, while also giving you the chance to work on a side project with other interns. (Internship: For juniors and above)
-                     </p>
+                  <p class="results-card-subtitle">Tackle a role like a full-time employee for 10 weeks. STEP 2 drops
+                     you straight into a team of employees, while also giving you the chance to work on a side project
+                     with other interns. (Internship: For juniors and above)
+                  </p>
                </div>
 
 
@@ -276,10 +284,14 @@
             <!-- Next / Prev Buttons -->
             <div style="overflow:auto;">
                <div style="text-align: center;">
-                  <button type="button" id="prevBtn" class="rounded-btn-blue interstate-bold" onclick="nextPrev(-1)">Previous</button>
+                  <a href="#" id="programLink">
+                     <button type="button" id="prevBtn" class="rounded-btn-blue interstate-bold" onclick="nextPrev(-1)">Previous</button>
+                  </a>
                   <br class="breakline">
                   <br class="breakline">
-                  <button type="button" id="nextBtn" class="rounded-btn-blue interstate-bold" onclick="nextPrev(1)">Next</button>
+                  <a href="#" id="splashLink">
+                     <button type="button" id="nextBtn" class="rounded-btn-blue interstate-bold" onclick="nextPrev(1)">Next</button>
+                  </a>
                </div>
             </div>
 
