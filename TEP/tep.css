@@ -232,7 +232,7 @@ src: url("../Fonts/Interstate_Light.ttf");
 
 /* Mobile Styling */
     
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 320px) and (max-width: 1100px){
 
     .hero-button-styling {
         display: block;
@@ -287,6 +287,8 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .locations-styling {
@@ -307,6 +309,8 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .list-margin { 
@@ -370,6 +374,10 @@ src: url("../Fonts/Interstate_Light.ttf");
         font-family: Interstate;
         margin-left: 100px;
     }
+
+    .mobile-h3 {
+        font-size: 18px;
+    }
 }
 
 
@@ -427,6 +435,8 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding-top: 0%;
+        padding-bottom: 0%;
     }
 
 
@@ -501,11 +511,13 @@ src: url("../Fonts/Interstate_Light.ttf");
     .program-overview-image{
         background-image: url(Backgrounds/Desktop/Full-Time.png);
         background-color: #cccccc;
-        height: 100%;
+        height: 60vh;
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding-top: 0%;
+        padding-bottom: 0%;
     }
 
 
@@ -575,10 +587,12 @@ src: url("../Fonts/Interstate_Light.ttf");
     .program-overview-image {
         background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 80vh; /* You must set a specified height */
+        height: 60vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        padding-top: 0%;
+        padding-bottom: 0%;
     }
 
 
@@ -676,6 +690,11 @@ src: url("../Fonts/Interstate_Light.ttf");
         margin-left: 3%;
         margin-right: 3%;
     }
+
+    .svg-experience-scaling {
+        width: 180px;
+        height: 250px;
+    }
     
 }
 
@@ -704,10 +723,12 @@ src: url("../Fonts/Interstate_Light.ttf");
     .program-overview-image {
         background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 80vh; /* You must set a specified height */
+        height: 60vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        padding-top: 0%;
+        padding-bottom: 0%;
     }
 
 
@@ -805,6 +826,11 @@ src: url("../Fonts/Interstate_Light.ttf");
     .svg-container-margins {
         margin-left: 3%;
         margin-right: 3%;
+    }
+
+    .svg-experience-scaling {
+        width: 180px;
+        height: 250px;
     }
     
 }
