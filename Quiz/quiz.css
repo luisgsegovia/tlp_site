@@ -37,13 +37,13 @@
 
 .form-area {
     height:100vh;
-    text-align: center;
+    text-align: left;
 }
 
 .message {
     font-family: Interstate,sans-serif;
       color: #53565A;
-      text-align:center;
+      text-align:left;
       font-weight: 400;
       font-size: 4em;
       padding: 15px 10px 15px 10px; 
@@ -75,6 +75,8 @@
     padding: 10px 30px;
 }    
 
+/* selector styling for radio buttons */
+
 .selector-box {
   margin-bottom: 3em;
   font-size: 3em;
@@ -99,12 +101,31 @@
   top: 1.7rem !important;
 }
 
-input[type="radio"] {
-  height:100px;
+/* checkbox styling for major */
+
+.check-box {
+  margin-bottom: 3em;
+  font-size: 3em;
+  text-align:left;
 }
 
-.custom-radio {
-  height: 2em;
+
+.check-label {
+  font-family: Interstate;
+  color: #6D6D6D;
+  padding-left: 25px;
+  margin-left:50px;
+}
+
+.check-label::before {
+  transform:scale(3);
+  top: 1.7rem !important;
+}
+
+/* same as before */
+.check-label::after {
+  transform:scale(3);
+  top: 1.7rem !important;
 }
 
 /* Form Styling */
@@ -121,7 +142,7 @@ input[type="radio"] {
     padding: 10px;
     width: 100%;
     font-size: 17px;
-    font-family: Raleway;
+    font-family: Interstate;
     border: 1px solid #aaaaaa;
   }
   
@@ -150,6 +171,7 @@ input[type="radio"] {
   /* Mark the active step: */
   .step.active {
     opacity: 1;
+    background-color:#056DAE;
   }
   
   /* Mark the steps that are finished and valid: */

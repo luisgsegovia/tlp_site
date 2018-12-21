@@ -1,6 +1,8 @@
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
+console.log("Current Tab: " + currentTab)
+
 function showTab(n) {
   // This function will display the specified tab of the form ...
   var x = document.getElementsByClassName("tab");
@@ -23,6 +25,7 @@ function showTab(n) {
 function nextPrev(n) {
   // This function will figure out which tab to display
   var x = document.getElementsByClassName("tab");
+  // console.log("NextPrev Parameter: " + n);
   // Exit the function if any field in the current tab is invalid:
   if (n == 1 && !validateForm()) return false;
   // Hide the current tab:
@@ -36,28 +39,33 @@ function nextPrev(n) {
     return false;
   }
   // Otherwise, display the correct tab:
+  console.log("Number of tabs: " + x.length);
+  console.log("Current tab: " + currentTab)
+
   showTab(currentTab);
 }
 
 function validateForm() {
   // This function deals with validation of the form fields
-  var x, y, i, valid = true;
+  var x, y, i, valid = true,validCounter=0;
   x = document.getElementsByClassName("tab");
   y = x[currentTab].getElementsByTagName("input");
   // A loop that checks every input field in the current tab:
-  for (i = 0; i < y.length; i++) {
-    // If a field is empty...
-    if (y[i].value == "") {
-      // add an "invalid" class to the field:
-      y[i].className += " invalid";
-      // and set the current valid status to false:
-      valid = false;
-    }
-  }
+  // for (i = 0; i < y.length; i++) {
+  //     if(y[i].type = "input"){
+  //       if(y[i].checked){
+  //         validCounter++;
+  //       }
+  //     }
+  // }
+  // console.log(y);
 //   If the valid status is true, mark the step as finished and valid:
-  if (valid) {
+  if (true) {
     document.getElementsByClassName("step")[currentTab].className += " finish";
+  } else {
+    valid = false;
   }
+  // console.log(valid)
   return valid; // return the valid status
 }
 
@@ -69,4 +77,6 @@ function fixStepIndicator(n) {
   }
   //... and adds the "active" class to the current step:
   x[n].className += " active";
+  // console.log("step = " + n);
+  // console.log("active step = " + x[n].className)
 }
