@@ -1,3 +1,5 @@
+/* Font Styling */
+
 .interstate {
     font-family: Interstate;
 }
@@ -28,23 +30,87 @@
 
 /* Page Styling */
 .splash-logo {
-    height: 106px;
+    height: 70px;
     float: left !important; 
+    margin: 30px;
 }
 
-.welcome-message {
+.form-area {
+    height:100vh;
+    text-align: center;
+}
+
+.message {
     font-family: Interstate,sans-serif;
       color: #53565A;
       text-align:center;
       font-weight: 400;
-      font-size: 1.9em;
+      font-size: 4em;
       padding: 15px 10px 15px 10px; 
+}
+
+.rounded-btn-blue {
+    border-radius: 25px;
+    background-color: #056DAE;
+    font-size: 2em;
+    padding: 10px 30px;
+    color: white;
+    border:none;
+}
+
+.hero-image {
+    background-image: url("./Backgrounds/Desktop/web.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.rounded-btn-white {
+    background-color: white;
+    border-radius: 25px;
+    color: #53565A;
+    padding: 10px 30px;
+}    
+
+.selector-box {
+  margin-bottom: 3em;
+  font-size: 3em;
+  text-align:left;
+}
+
+.selector-label {
+  font-family: Interstate;
+  color: #6D6D6D;
+  padding-left: 30px;
+}
+
+/* This is since Material Design uses a "before" and "after" hack to create custom radio buttons, since radio buttons cant contain elements */
+.selector-label::before {
+  transform:scale(3);
+  top: 1.7rem !important;
+}
+
+/* same as before */
+.selector-label::after {
+  transform:scale(3);
+  top: 1.7rem !important;
+}
+
+input[type="radio"] {
+  height:100px;
+}
+
+.custom-radio {
+  height: 2em;
 }
 
 /* Form Styling */
 #regForm {
-    background-color: #ffffff;
-    margin: 100px auto;
+    /* background-color: #ffffff; */
+    margin: 50px auto; 
     padding: 40px;
     width: 70%;
     min-width: 300px;
@@ -88,7 +154,7 @@
   
   /* Mark the steps that are finished and valid: */
   .step.finish {
-    background-color: #4CAF50;
+    background-color: #056DAE;
   }
 
 
