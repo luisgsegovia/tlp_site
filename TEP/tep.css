@@ -239,10 +239,24 @@ src: url("../Fonts/Interstate_Light.ttf");
         margin-bottom: 20px;
     }
     
+    .white-header{
+        color: white;
+        font-size: 35px;
+    }
+    
+    .white-sub-header{
+        color: white;
+        font-size: 25px;
+    }
+
+    .yellow-header{
+        color: #FFCD00;
+        font-size: 35px;
+    }
     
     .hero-image {
         background-image: url("Backgrounds/Mobile/TEP_iPhone_8+.png"); /* The image used */
-        height: 100%; /* You must set a specified height */
+        height: 100vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
@@ -372,6 +386,20 @@ src: url("../Fonts/Interstate_Light.ttf");
         display: inline-block;
     }
 
+    .white-header{
+        color: white;
+        font-size: 45px;
+    }
+    
+    .white-sub-header{
+        color: white;
+        font-size: 35px;
+    }
+
+    .yellow-header{
+        color: #FFCD00;
+        font-size: 45px;
+    }
 
     .benefits-image{
         background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
