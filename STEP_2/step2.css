@@ -1,0 +1,1044 @@
+/* Global Styling */
+
+.content-padding{
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.icon-padding{
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.splash-logo {
+    height: 85px;
+    float: left;
+}
+
+.text-margin {
+    margin-bottom: 10%;
+}
+
+.rounded-btn-white {
+    background-color: white;
+    border-radius: 25px;
+    color: #53565A;
+    padding: 10px 30px;
+}  
+
+.rounded-btn-blue {
+    border-radius: 25px;
+    background-color: #6B3077;
+    padding: 10px 30px;
+    color: white;
+}
+
+.btn-wrapper {
+    padding-top: 40px;
+    display: block;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: 0px;
+}
+
+.benefits-background {
+    background-color: #E9E9E9;
+}
+
+.numbers-font{
+    font-size: 60px;
+}
+
+.white-header{
+    color: white;
+    font-size: 45px;
+}
+
+.black-header {
+    color: #53565A;
+    font-size: 45px;
+}
+
+.black-sub-header {
+    color: #53565A;
+    font-size: 35px;
+}
+
+.white-sub-header{
+    color: white;
+    font-size: 35px;
+}
+
+.white-font {
+    color: white;
+}
+
+.yellow-header{
+    color: #C99700;
+    font-size: 45px;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.button-styling {
+    background-color: #6B3077;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Interstate;
+}
+
+.hero-button-styling {
+    background-color: #6B3077;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Interstate;
+}
+
+.right-side {
+    position: absolute;
+    right: 10%;    
+    width: 600px;
+    height: 120px;
+} 
+
+#wrapper ul {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    list-style-type: none;
+}
+
+#wrapper ul li {
+    padding: 30px;
+    margin-bottom: 20px;
+    display: table;
+}
+
+#wrapper ul li img {
+    float: left;
+}
+
+#wrapper ul li .details {
+    width: 80%;
+}
+
+.list-margin {
+    float: right; 
+    margin-left:50%;
+}
+
+.container-spacing {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.top-spacing {
+    margin-top: 5%;
+}
+
+.top-header-spacing {
+    margin-top: 3%;
+}
+
+.detail-spacing {
+    padding-bottom: 10%;
+}
+
+.center{
+    align-content: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.padding-top{
+    padding-top: 5%;
+}
+
+.svg-scaling {
+    width: 350px;
+    height: 350px;
+}
+
+.svg-testimonials-scaling {
+    width: 200px;
+    height: 200px;
+    max-width: 90%;
+}
+
+.svg-roles-scaling {
+    width: 150px;
+    height: 150px;
+    max-width: 90%;
+}
+
+.svg-hiring-scaling {
+    height: 110px;
+    width: 110px;
+}
+
+.svg-container-margins {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.svg-location-container-margins {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.list-overflow-text{
+    margin-left: 100px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #333333;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.interstate {
+    font-family: Interstate;
+}
+
+.interstate-bold {
+    font-family: InterstateBold;
+}
+
+.interstate-light {
+    font-family: InterstateLight;
+}
+
+@font-face {
+font-family: "Interstate";
+src: url("../Fonts/Interstate_Regular.ttf");
+}
+
+@font-face {
+font-family: "InterstateBold";
+src: url("../Fonts/Interstate_Bold.ttf");
+}
+
+@font-face {
+font-family: "InterstateLight";
+src: url("../Fonts/Interstate_Light.ttf");
+}
+
+/* Mobile Styling */
+    
+@media only screen and (min-width: 320px){
+
+    .hero-button-styling {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    
+    .hero-image {
+        background-image: url("Backgrounds/Mobile/STEP_2\ _iPhone_8+.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .benefits-image {
+        background-image: url("Backgrounds/Mobile/Benefits.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .hiring-image {
+        background-image: url("Backgrounds/Mobile/Hiring_Process.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100%; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Program\ Overview.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100%; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .list-margin { 
+        margin: auto;
+    }   
+
+    #wrapper ul {
+        padding: 0;
+        margin-top: 100%;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 0px;
+        margin-bottom: 20px;
+        display: table;
+        margin-right: 3%;
+    }
+
+    #wrapper ul li img {
+        float: center;
+    }
+
+    #wrapper ul li .details {
+        width: 95%;
+        text-align: left;
+    }
+
+    .center {
+        align-content: center;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .svg-scaling {
+        width: 250px;
+        height: 250px;
+    }
+
+    .svg-experience-scaling {
+        width: 120px;
+        height: 250px;
+    }
+
+    .svg-roles-scaling {
+        width: 100px;
+        height: 100px;
+    }
+
+    .button-styling {
+        background-color: #6B3077;
+        border-radius: 100px;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Interstate;
+        margin-left: 100px;
+    }
+}
+
+
+/* Tablet Styling */
+
+@media only screen and (min-width: 500px){
+    .hero-image {
+        background-image: url("Backgrounds/Tablet/STEP_2_iPad.png"); /* The image used */
+        height: 100vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image{
+        background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    #wrapper ul {
+        padding: 0;
+        margin-top: 65%;
+        width: 58%;
+        margin-left: 40%;
+        list-style-type: none;
+    }
+
+
+    .program-overview-image{
+        background-image: url("Backgrounds/Desktop/Program\ Overview.png");
+        background-color: #cccccc;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Tablet/Hiring_Process.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100%; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      } 
+}
+
+/* Regular Desktop Styling */
+@media only screen and (min-width: 850px){
+    .hero-image {
+        background-image: url("Backgrounds/Tablet/STEP_2_iPad.png"); /* The image used */
+        height: 100vh; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image{
+        background-image: url("Backgrounds/Tablet/Benefits.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    #wrapper ul {
+        padding: 0;
+        margin-top: 45%;
+        width: 60%;
+        margin-left: 40%;
+        list-style-type: none;
+    }
+
+    .benefits-width {
+        width: 70% !important;
+    }
+
+    .program-overview-image{
+        background-image: url("Backgrounds/Desktop/Program\ Overview.png");
+        background-color: #cccccc;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .locations-styling {
+        background-color: #333333; /* Used if the image is unavailable */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Tablet/Hiring_Process.png"); /* The image used */
+        height: 100%; /* You must set a specified height */
+        
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100%; /* You must set a specified height */
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      } 
+
+      .svg-container-margins {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+      }
+}
+
+/* Large Desktop Styling */
+
+@media only screen and (min-width: 1200px){
+    .hero-image {
+        background-image: url("Backgrounds/Desktop/Step_2_Desktop.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image {
+        background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
+        background-color: white;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Program\ Overview.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 80vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .roles-styling {
+        background-color: white; /* Used if the image is unavailable */
+        height: 90vh; /* You must set a specified height */
+        display: inline-block;
+    }   
+
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 70vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Desktop/Hiring_Process.png"); /* The image used */
+        background-color: white; /* Used if the image is unavailable */
+        height: 110vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+    }
+
+
+    .locations-styling {
+        background-color: #333333;
+        height: 70vh;
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    .testimonial-styling {
+        height: 95vh; /* You must set a specified height */
+        display: inline;
+        background-color: #333333;
+    }
+
+
+    .experience-styling {
+        background-color: white;
+        height: 80vh;
+        display: inline-block;
+    }
+
+    #wrapper ul {
+        padding: 0;
+        margin: auto;
+        width: 100% !important;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 0px;
+        margin-bottom: 60px;
+        display: table;
+    }
+
+    #wrapper ul li img {
+        float: left;
+    }
+
+    #wrapper ul li .details {
+        width: 100%;
+    }
+
+    .list-margin-hiring { 
+        margin-left: 50%;
+    } 
+
+    .list-margin-benefits {
+        padding: 0; 
+        margin: auto;
+        width: 100%;
+        margin-left: 80%;
+        list-style-type: none;
+    }
+    
+    .list-margin { 
+        margin-top: 5%;
+        margin-left: 55%;
+    } 
+
+    .padding-top{
+        padding-top: 5%;
+    }
+
+    .svg-container-margins {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+}
+
+/* Extra Large Desktop */
+@media only screen and (min-width: 1500px){
+    .hero-image {
+        background-image: url("Backgrounds/Desktop/Step_2_Desktop.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 100vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        display: inline-block;
+    }
+
+
+    .benefits-image {
+        background-image: url("Backgrounds/Desktop/Benefits.png"); /* The image used */
+        background-color: #E9E9E9;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .program-overview-image {
+        background-image: url("Backgrounds/Desktop/Program\ Overview.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 80vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .roles-styling {
+        background-color: white; /* Used if the image is unavailable */
+        height: 100%; /* You must set a specified height */
+        display: inline-block;
+    }   
+
+
+    .stats-image {
+        background-image: url("Backgrounds/Desktop/Stats.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 70vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+
+    .hiring-image {
+        background-image: url("Backgrounds/Desktop/Hiring_Process.png"); /* The image used */
+        background-color: white; /* Used if the image is unavailable */
+        height: 110vh; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+    }
+
+
+    .locations-styling {
+        background-color: #333333;
+        height: 70vh;
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    .testimonial-styling {
+        height: 95vh; /* You must set a specified height */
+        display: inline;
+        background-color: #333333;
+    }
+
+
+    .experience-styling {
+        background-color: white;
+        height: 80vh;
+        display: inline-block;
+    }
+
+    #wrapper ul {
+        padding: 0;
+        margin: auto;
+        width: 100% !important;
+        margin-left: 50%;
+        list-style-type: none;
+    }
+
+    #wrapper ul li {
+        padding: 0px;
+        margin-bottom: 60px;
+        display: table;
+    }
+
+    #wrapper ul li img {
+        float: left;
+    }
+
+    #wrapper ul li .details {
+        width: 100%;
+    }
+
+    .list-margin-hiring { 
+        margin-left: 50%;
+    } 
+
+    .list-margin-benefits {
+        padding: 0; 
+        margin: auto;
+        width: 100%;
+        margin-left: 100%;
+        list-style-type: none;
+    }
+    
+    .list-margin { 
+        margin-top: 5%;
+        margin-left: 75%;
+    } 
+
+    .padding-top{
+        padding-top: 5%;
+    }
+
+    .svg-container-margins {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+}
+
+/* Footer Styling */
+
+.footer-logo-container {
+    height: 40px;
+    width: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+    margin: 12px;
+}
+footer a {
+    color: #fff!important;
+    text-decoration: none;
+}
+.footer-nav-responsive {
+    color: #fff;
+    font-size: .95em;
+    margin-right: 8px;
+    font-family: InterstateLight!important;
+    padding-left: 0;
+}
+.footer-social-container {
+    height: 40px;
+    max-height: 40px;
+    width: 75%;
+    display: inline-block;
+    float: right;
+    margin: 12px;
+    color: #fff!important;
+    text-align: right;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+}
+.footer-social ul li {
+    list-style: none!important;
+    display: inline-block!important;
+    white-space: nowrap!important;
+    padding: 8px 10px;
+    font-size: 1.3em;
+}
+.footer-social ul {
+    padding: 0;
+}
+.footer-nav-responsive h3 {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 0 6px 0;
+    font-family: InterstateBold;
+}
+.footer-nav-responsive li {
+    list-style: none;
+    font-size: 1.1em;
+    padding: 6px 0 6px 0;
+}
+.footer-width{
+  max-width: 90%;
+}
+.footer-responsive {
+    padding-top: 10px!important;
+    border-bottom: solid thin #858585;
+    padding-bottom: 20px!important;
+    padding-left: 10px!important;
+}
+.footer-responsive li {
+    display: inline-block;
+    list-style: none;
+    font-size: .9em;
+    margin-right: 25px;
+    font-family: InterstateLight!important;
+}
+p.copyright {
+    margin: 15px 0 0;
+    color: #fff;
+}
+.citilmFooterWrap{
+  padding-top:20px;
+  background-color:#333;
+}
+
+.qualification-arrow-desktop{
+  color: #00B3F0;
+  position: absolute;
+  right: -24px;
+  z-index: 1;
+  top: 50px;
+  font-size: 45px !important;
+}
+
+.qualification-arror-mobile{
+  color: #00B3F0;
+  position: absolute;
+  z-index: 1;
+  font-size: 40px !important;
+  left: 45%;
+  bottom: -19px
+}
+
+/* Mobile Responsive */
+
+.dropdown-apply{
+    background-image:url(../images/arrow-dropdown-down.svg);
+    background-repeat: no-repeat; 
+    padding-right: 42px;
+    background-position: right 10px center;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 7px;
+    font-size: 14px;
+  }
+  .about-us{
+    padding-left: 70px !important;
+  }
+  select::-ms-expand {
+      display: none;
+  }
+  
+  @media only screen 
+  and (min-device-width : 420px) 
+  and (max-device-width : 662px) {
+    .citi-menu ul li {
+        width: 23% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .citi-menu ul li {
+        font-size: 3.5vw !important;
+        width: 23% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 662px) {
+    .about-us{
+      padding-left: 6px !important;
+    }
+    #dynamic-citi-logo{
+      display:none !important;
+    }
+    
+    .dropdown-apply{
+       font-size: 12px !important;
+    }
+    .dropdown-apply{
+        left: 5px;
+    }
+    .main-citi-nav{
+        padding-left: 0px !important;
+    }
+    .nav-width{
+        padding-left: 0 !important;
+    }
+    .nav-apply {
+      display: none !important;
+    }
+    .text-rectangle-first-col {
+        width:30% !important;
+        display:table-cell;;  
+        text-align: center;     
+    }
+    .text-rectangle-second-col {
+        width: 30% !important;
+        display:table-cell;
+        text-align: center;  
+    }
+    /* .disappear-phone {
+      display:none !important;         
+    } */
+    .apply-button{
+      top:60% !important;
+    }
+    .top_title {
+      font-size: 6vw !important;
+    }
+    .mission_desc{
+      font-size: 4vw !important;
+    }
+    .footer-social ul li {
+        padding: 8px 5px !important;
+    }
+    .footer-mobile-only {
+        display: inline-block!important;
+    }
+    .footer-nav-responsive h3 {
+        padding: 15px 0 0px 20px !important;
+        border-top: solid thin #858585;
+    }
+    .footer-nav-responsive div {
+        padding: 15px 0 0px 20px !important;
+        border-top: solid thin #858585;
+    }
+    .footer-responsive li {
+        display: block !important;
+        padding-left:20px !important;
+    }
+    .mission_desc{
+      margin-top: 70px !important;
+    }
+    #margin-top-120 {
+        margin-top: 140px !important;
+    }
+  
+    .apply-text {
+      font-size: 13px;
+    }
+  
+    .apply-title {
+      font-size: 15px;
+    }
+  
+    .text-rectangle {
+      text-align: center;
+    }
+  
+  }
+  @media only screen and (min-width: 650px) {
+  
+    .disappear-computer{
+      display: none !important;
+    }
+  
+    .apply-text{
+      font-size: 16px;
+    }
+  
+    .apply-title {
+      font-size: 20px;
+    }
+  }
+  
+  
+  .disapper-mobile{
+     @media (max-width: @screen-sm-min) {
+        display: none !important;
+     }
+  }
