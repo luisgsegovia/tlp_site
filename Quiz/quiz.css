@@ -128,6 +128,35 @@
   top: 1.7rem !important;
 }
 
+
+/* Results Card */
+
+.results-card {
+  text-align: center;
+  display: none;
+  width: 30em;
+  margin:auto;
+}
+
+.results-card-icon {
+  width: 100px;
+  height: 100%;
+  margin: 20px;
+}
+
+.results-card-title {
+  font-family: Interstate,sans-serif;
+  font-size: 3em;
+  color:#6B6B6B;
+  margin-bottom:20px;
+}
+
+.results-card-subtitle {
+  font-family: Interstate,sans-serif;
+  font-size: 1.5em;
+  color:#6B6B6B;
+}
+
 /* Form Styling */
 #regForm {
     /* background-color: #ffffff; */
@@ -179,6 +208,10 @@
     background-color: #056DAE;
   }
 
+  /* For the final step */
+  .breakline {
+    display: none;
+  }
 
   /* Footer Styling */
 

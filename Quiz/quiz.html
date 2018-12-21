@@ -44,7 +44,7 @@
 
                   <!-- option 2 -->
                   <div class="custom-control custom-radio">
-                     <input type="radio" class="custom-control-input" id="year2" name="groupOfDefaultRadios" checked>
+                     <input type="radio" class="custom-control-input" id="year2" name="groupOfDefaultRadios">
                      <label class="custom-control-label selector-label" for="year2">Softmore</label>
                   </div>
 
@@ -82,7 +82,7 @@
 
                   <!-- option 2 -->
                   <div class="custom-control custom-radio">
-                     <input type="radio" class="custom-control-input" id="major2" name="groupOfDefaultRadios" checked>
+                     <input type="radio" class="custom-control-input" id="major2" name="groupOfDefaultRadios">
                      <label class="custom-control-label selector-label" for="major2">Information Systems</label>
                   </div>
 
@@ -209,13 +209,15 @@
                   <!-- option 1 -->
                   <div class="custom-control custom-radio">
                      <input type="radio" class="custom-control-input" id="future1" name="groupOfDefaultRadios">
-                     <label class="custom-control-label selector-label" for="future1">Build deep skills in a specific area (like software development, data science or product management, for example)</label>
+                     <label class="custom-control-label selector-label" for="future1">Build deep skills in a specific
+                        area (like software development, data science or product management, for example)</label>
                   </div>
 
                   <!-- option 2 -->
                   <div class="custom-control custom-radio">
-                     <input type="radio" class="custom-control-input" id="future2" name="groupOfDefaultRadios" checked>
-                     <label class="custom-control-label selector-label" for="future2">Try a few different roles out and get a breadth of experience</label>
+                     <input type="radio" class="custom-control-input" id="future2" name="groupOfDefaultRadios">
+                     <label class="custom-control-label selector-label" for="future2">Try a few different roles out and
+                        get a breadth of experience</label>
                   </div>
 
                   <!-- option 3 -->
@@ -224,12 +226,49 @@
                      <label class="custom-control-label selector-label" for="future3">Focus on my technical skills</label>
                   </div>
 
-                  <!-- option 3 -->
+                  <!-- option 4 -->
                   <div class="custom-control custom-radio">
                      <input type="radio" class="custom-control-input" id="future4" name="groupOfDefaultRadios">
                      <label class="custom-control-label selector-label" for="future4">Focus on my leadership skills</label>
                   </div>
                </div>
+            </div>
+
+            <!-- Results tab -->
+            <div class="tab">
+               <p class="message"><span id="decision"></span> might be the best fit for you! But you can also click
+                  here to see all of our programs.</p>
+
+               <!-- TEP -->
+               <div class="results-card" id="card1">
+                  <img src="Icons/TEP.svg" class="results-card-icon">
+                  <p class="results-card-title">Technology Engineering Program</p>
+                  <p class="results-card-subtitle">Dive straight into a role like software engineering, data science or product management. TEP is for those who want to build deep technical skills in a particular area. (Full Time: For recent college graduates)</p>
+               </div>
+
+               <!-- TLP -->
+               <div class="results-card" id="card2">
+                  <img src="Icons/TLP Results/TLP Grey.svg" class="results-card-icon">
+                  <p class="results-card-title">Technology Leadership Program</p>
+                  <p class="results-card-subtitle">Chart your own career path by completing three eight-month rotations in the roles of your choice! TLP is about breadth, flexibility, and leadership development. (Full Time: For recent college graduates)</p>
+               </div>
+
+               <!-- Step 1 -->
+               <div class="results-card" id="card3">
+                  <img src="Icons/STEP 1 or 2 Results/STEP 1 Grey.svg" class="results-card-icon">
+                  <p class="results-card-title">STEP 1</p>
+                  <p class="results-card-subtitle">Your journey to a tech career starts here! STEP 1 interns work on group projects that make a real impact, and receive mentoring and career counseling. (Internship: For freshmen and sophomores)</p>
+               </div>
+
+               <!-- Step 2 -->
+               <div class="results-card" id="card4">
+                  <img src="Icons/STEP 1 or 2 Results/STEP 2 Grey.svg" class="results-card-icon">
+                  <p class="results-card-title">STEP 2</p>
+                  <p class="results-card-subtitle">Tackle a role like a full-time employee for 10 weeks. STEP 2 drops you straight into a team of employees, while also giving you the chance to work on a side project with other interns. (Internship: For juniors and above)
+                     </p>
+               </div>
+
+
             </div>
 
 
@@ -238,13 +277,16 @@
             <div style="overflow:auto;">
                <div style="text-align: center;">
                   <button type="button" id="prevBtn" class="rounded-btn-blue interstate-bold" onclick="nextPrev(-1)">Previous</button>
+                  <br class="breakline">
+                  <br class="breakline">
                   <button type="button" id="nextBtn" class="rounded-btn-blue interstate-bold" onclick="nextPrev(1)">Next</button>
                </div>
             </div>
 
             <!-- Circles which indicates the steps of the form: -->
-            <div style="text-align:center;margin-top:40px;">
+            <div id="stepCounter" style="text-align:center;margin-top:40px;">
 
+               <span class="step"></span>
                <span class="step"></span>
                <span class="step"></span>
                <span class="step"></span>
@@ -429,7 +471,7 @@
 
 </html>
 
-<script src="quiz.js"></script>
+
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
@@ -438,3 +480,4 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js"></script>
+<script src="quiz.js"></script>
