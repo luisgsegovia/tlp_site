@@ -58,6 +58,15 @@
     border:none;
 }
 
+.rounded-btn-blue:disabled {
+  border-radius: 25px;
+  background-color: lightgray;
+  font-size: 2em;
+  padding: 10px 30px;
+  color: white;
+  border:none;
+}
+
 .hero-image {
     background-image: url("./Backgrounds/Desktop/web.png");
     height: 100%;
