@@ -13,9 +13,7 @@ $(function(){
     if ($(this).is(':checked') && $(this).hasClass("years"))
     {
       var year = $(this).attr("id");
-      console.log(year);
       var selectionText = year[year.length-1];
-      console.log(selection);
 
       selection = parseInt(selectionText, 10);
     }
@@ -38,15 +36,12 @@ var link = {
 
 showTab(currentTab); // Display the current tab
 
-// console.log("Current Tab: " + currentTab)
 
 function showTab(n) {
-  console.log
 
   // This function will display the specified tab of the form ...
   var x = document.getElementsByClassName("tab");
 
-  // console.log("Radio Val" + getRadioVal(document.getElementById("regForm"),"groupOfDefaultRadios"));
 
   // if it's the final tab, calculate the decision
   var decision = 0;
@@ -62,6 +57,9 @@ function showTab(n) {
   if (n == 0) {
     document.getElementById("prevBtn").style.display = "none";
   } else if (n == (x.length - 1)) {
+    //turn the button back on
+    $("#nextBtn").prop('disabled', false);
+
     //display nothing if the logic couldnt find anything
     if (decision == 5) {
       document.getElementById("prevBtn").style.display = "none";
@@ -108,12 +106,11 @@ function nextPrev(n) {
   var y = document.getElementById("nextBtn");
 
 
-  $("#nextBtn").prop('disabled', true);
-  // $("input").prop('disabled', false);
-  // console.log("NextPrev Parameter: " + n);
-  // Exit the function if any field in the current tab is invalid:
-  // if (n == 1 && !validateForm()) return false;
-  // if(!validateForm()) return;
+  if(n == 1){
+    $("#nextBtn").prop('disabled', true);
+  } else {
+    $("#nextBtn").prop('disabled', false);
+  }
   // Hide the current tab:
   x[currentTab].style.display = "none";
   // Increase or decrease the current tab by 1:
@@ -146,7 +143,6 @@ function validateForm() {
   if (y.length == 0) {
     valid = true;
   }
-  console.log(valid);
   //   If the valid status is true, mark the step as finished and valid:
   if (valid) {
     document.getElementsByClassName("step")[currentTab].className += " finish";
@@ -157,7 +153,6 @@ function validateForm() {
     $("#nextBtn").prop("disabled", "true");
     $("#nextBtn").css("background-color", "gray");
   }
-  // console.log(valid)
   return valid; // return the valid status
 }
 
@@ -177,37 +172,16 @@ function calculateDecision() {
   x = document.getElementsByClassName("results-card");
   y = document.getElementsByClassName(".custom-control-input");
 
-
-  
-  console.log("Year 2: " + $("#year2").val());
-  console.log("Year 3: " + $("#year3").val());
-  console.log("Year 4: " + $("#year4").val());
-  console.log("Year 5: " + $("#year5").val());
-
-  for(i=0;i<y.length;i++){
-    if(y[i].checked){
-      console.log(i + " " + y[i] + " " + y[i].attr('id'));
-    }
-  }
-  console.log("length = " + y.length);
-  // console.log(x);
   //step 1
   if (selection == 1 || selection == 2) {
     x[2].style.display = "block";
     $("#decision").html(dict[3]);
     decision = 3;
-    // console.log("Year 1: " + $("#year1").prop("checked", true));
-    // console.log("Year 2: " + $("#year2").prop("checked", true));
     //step 2
   } else if (selection == 3) {
     x[3].style.display = "block";
     $("#decision").html(dict[4]);
     decision = 4;
-    //tlp - RIP
-    // } else if ($("#future2").prop("checked") || $("#future4").prop("checked")) {
-    //   x[1].style.display = "block";
-    //   $("#decision").html(dict[2]);
-    //   decision = 2;
     //tep
   } else if (selection == 4 || selection == 5) {
     x[0].style.display = "block";
@@ -217,7 +191,6 @@ function calculateDecision() {
   } else {
     decision = 5;
   }
-  console.log(decision);
   return decision;
 }
 
