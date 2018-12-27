@@ -22,15 +22,28 @@ function showTab(n) {
   // This function will display the specified tab of the form ...
   var x = document.getElementsByClassName("tab");
 
+  console.log("Radio Val" + getRadioVal(document.getElementById("regForm"),"groupOfDefaultRadios"));
+
   // if it's the final tab, calculate the decision
   var decision = 0;
   if (n == (x.length - 1)) {
+
+    // var checked = $('.custom-control-input:checked').map(function() {
+    //   return this.value;
+    // }).get();
+    // if (checked.length) {
+    //   console.log(checked);
+    // } else {
+    //   console.log('null');
+    // }
     decision = calculateDecision();
     if (decision == 5) {
-      
+
       console.log("Couldn't find match");
     }
   }
+
+
 
 
   x[n].style.display = "block";
@@ -107,14 +120,14 @@ function validateForm() {
   y = x[currentTab].getElementsByTagName("input");
   // A loop that checks every input field in the current tab:
   for (i = 0; i < y.length; i++) {
-      if(y[i].type = "input"){
-        if(y[i].checked){
-          valid=true;
-        }
+    if (y[i].type = "input") {
+      if (y[i].checked) {
+        valid = true;
       }
+    }
   }
 
-  if(y.length == 0 ){
+  if (y.length == 0) {
     valid = true;
   }
   console.log(valid);
@@ -122,11 +135,11 @@ function validateForm() {
   if (valid) {
     document.getElementsByClassName("step")[currentTab].className += " finish";
     $("#nextBtn").removeAttr('disabled');
-    $("#nextBtn").css("background-color","#056dae");
+    $("#nextBtn").css("background-color", "#056dae");
   } else {
     valid = false;
-    $("#nextBtn").prop("disabled","true");
-    $("#nextBtn").css("background-color","gray");
+    $("#nextBtn").prop("disabled", "true");
+    $("#nextBtn").css("background-color", "gray");
   }
   // console.log(valid)
   return valid; // return the valid status
@@ -144,8 +157,16 @@ function fixStepIndicator(n) {
 
 // 1 = TEP, 2 = TLP, 3 = Step 1, 4 = Step 2
 function calculateDecision() {
-  var decision = 5;
+  var decision = -1;
   x = document.getElementsByClassName("results-card");
+  y = document.getElementsByClassName(".custom-control-input");
+
+  for(i=0;i<y.length;i++){
+    if(y[i].checked){
+      console.log(i + " " + y[i] + " " + y[i].attr('id'));
+    }
+  }
+  console.log("length = " + y.length);
   // console.log(x);
   //step 1
   if ($("#year1").prop("checked") || $("#year2").prop("checked")) {
@@ -159,13 +180,13 @@ function calculateDecision() {
     x[3].style.display = "block";
     $("#decision").html(dict[4]);
     decision = 4;
-    //tlp
-  } else if ($("#future2").prop("checked") || $("#future4").prop("checked")) {
-    x[1].style.display = "block";
-    $("#decision").html(dict[2]);
-    decision = 2;
+    //tlp - RIP
+    // } else if ($("#future2").prop("checked") || $("#future4").prop("checked")) {
+    //   x[1].style.display = "block";
+    //   $("#decision").html(dict[2]);
+    //   decision = 2;
     //tep
-  } else if ($("#future1").prop("checked") || $("#future3").prop("checked")) {
+  } else if ($("#year4").val("on") || $("#year5").val("on")) {
     x[0].style.display = "block";
     $("#decision").html(dict[1]);
     decision = 1;
@@ -175,4 +196,19 @@ function calculateDecision() {
   }
   console.log(decision);
   return decision;
+}
+
+function getRadioVal(form, name) {
+  var val;
+  // get list of radio buttons with specified name
+  var radios = form.elements[name];
+  
+  // loop through list of radio buttons
+  for (var i=0, len=radios.length; i<len; i++) {
+      if ( radios[i].checked ) { // radio checked?
+          val = radios[i].value; // if so, hold its value in val
+          break; // and break out of for loop
+      }
+  }
+  return val; // return value of checked radio or undefined if none checked
 }
