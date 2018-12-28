@@ -48,7 +48,7 @@
 
 
 .numbers-font{
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .white-header{
@@ -592,7 +592,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .program-overview-image {
         background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 60vh; /* You must set a specified height */
+        height: 55vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
@@ -615,6 +615,7 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        padding-top: 5%;
     }
 
 
@@ -728,7 +729,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .program-overview-image {
         background-image: url("Backgrounds/Desktop/Full-Time.png"); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 60vh; /* You must set a specified height */
+        height: 55vh; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
@@ -751,6 +752,7 @@ src: url("../Fonts/Interstate_Light.ttf");
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        padding-top: 5%;
     }
 
 
