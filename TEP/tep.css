@@ -30,9 +30,10 @@
 
 .rounded-btn-blue {
     border-radius: 25px;
-    background-color: #056DAE;
+    background-color: #005AA1;
     padding: 10px 30px;
     color: white;
+    margin-top: 100px;
 }
 
 .btn-wrapper {
@@ -239,6 +240,10 @@ src: url("../Fonts/Interstate_Light.ttf");
         margin-bottom: 20px;
     }
     
+    .button-spacing {
+        margin-top: 10%;
+    }     
+
     .white-header{
         color: white;
         font-size: 35px;

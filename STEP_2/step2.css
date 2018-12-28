@@ -251,6 +251,10 @@ src: url("../Fonts/Interstate_Light.ttf");
         display: block;
         margin-bottom: 20px;
     }
+
+    .button-spacing{
+        margin-top: 10%;
+    }
     
     .white-header{
         color: white;
