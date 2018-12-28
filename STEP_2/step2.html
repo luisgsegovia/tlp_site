@@ -13,6 +13,21 @@
     <script src="tep.js"></script>
     <title>Summer Technology Engineering Program (STEP 2)</title>
     <link rel="shortcut icon" type="image/png" href="../Images/Citi.svg"/>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('a[href*=\\#]').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop : $(this.hash).offset().top
+            }, 500);
+        });
+    });
+    </script>
 </head>
 
 <body>
@@ -42,15 +57,15 @@
                 </div>
                 <div class="col-lg-7 top-header-spacing">
                     <div>
-                        <button class="hero-button-styling">Learn More</button>
-                        <button class="hero-button-styling visible-xs" href="../Splash_Page/splash.html">See Other Programs</a>
+                            <a class="rounded-btn-blue interstate-bold" href="#benefits">Learn More</a>
+                        <a class="hero-button-styling visible-xs" href="../Splash_Page/splash.html">See Other Programs</a>
                     </div>
                 </div>
                 </div>
         </header>
     </section>
 
-    <section class="benefits-image">
+    <section class="benefits-image" id="benefits">
         <div Id="wrapper">
             <div class="top-header-spacing list-margin-hiring">
                 <ul class="benefits-width">
@@ -256,7 +271,7 @@
                             </div>
                         </div>
                     </center>
-                    <center>
+                    <!--<center>
                             <div class="row top-header-spacing svg-container-margins">
                                 <div class="top-header-spacing">
                                     <div class="col-lg-4">
@@ -273,7 +288,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </center>
+                        </center>-->
             </header>
         </section>
 
@@ -302,7 +317,7 @@
                                 <div class="details">
                                         <h3 class="interstate-bold">Apply Online!</h3>
                                         <h4 class="interstate overflow">Whether you meet with a recruiter in person or not, you must apply online to be considered.</h4>
-                                        <button class="button-styling">Apply Here!</button>
+                                        <a class="button-styling interstate-bold" href="#">Apply Here!</a>
                                 </div>
                             </li>
                             <li>
@@ -311,7 +326,7 @@
                                     <div class="details">
                                             <h3 class="interstate-bold ">Take a Coding Test</h3>
                                             <h4 class="interstate overflow">For those seeking software engineering roles, don’t wait for us to reach out! The best way to get our attention is by acing one of these tests, which you can take at any time.</h4>
-                                            <button class="button-styling">Take the Test</button>
+                                            <a class="button-styling interstate-bold" href="#">Take The Test</a>
                                     </div>
                                 </li>
                             <li>
