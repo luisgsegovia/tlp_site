@@ -1,3 +1,61 @@
+.next-prev-buttons{
+  text-align: center;
+  clear:both;
+}
+
+@media only screen 
+and (min-width : 300px) 
+and (max-width : 662px) {
+  .next-prev-buttons{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+
+  .mobile-background-image-1{
+    background-image: url("Backgrounds/Mobile/iphonex.png") !important;
+  }
+  .mobile-background-image-2{
+    background-image: url("Backgrounds/Mobile/iphonex2.png") !important;
+  }
+  .mobile-background-image-3{
+    background-image: url("Backgrounds/Mobile/iphonex3.png") !important;
+  }
+
+  .check-row{
+    float:left;
+    width:200px;
+  }
+
+  .check-row label{
+    width:200px !important;
+    font-size:25px;
+  }
+
+  .check-label {
+    font-family: Interstate;
+    color: #6D6D6D;
+    padding-left: 25px;
+    margin-left:0px !important;
+  }
+
+  .hero-image {
+    background-image: url("./Backgrounds/Mobile/iphonex.png");
+}
+}
+
+/* .tags{clear:both} */
+.check-row{
+  float:left;
+  width:350px;
+}
+
+.check-row label, .check-row input{
+  display:inline-block;
+}
+.check-row label{
+  width:350px;
+}
+
 /* Font Styling */
 
 .interstate {
@@ -30,7 +88,7 @@
 
 /* Page Styling */
 .splash-logo {
-    height: 70px;
+    width:123px;
     float: left !important; 
     margin: 30px;
 }
@@ -42,8 +100,8 @@
 }
 
 @media only screen 
-and (min-device-width : 300px) 
-and (max-device-width : 662px) {
+and (min-width : 300px) 
+and (max-width : 662px) {
   .form-area {
       height:100%;
       text-align: left;
@@ -61,8 +119,8 @@ and (max-device-width : 662px) {
 }
 
 @media only screen 
-and (min-device-width : 300px) 
-and (max-device-width : 662px) {
+and (min-width : 300px) 
+and (max-width : 662px) {
     .message {
       font-family: Interstate,sans-serif;
         color: #53565A;
@@ -77,7 +135,7 @@ and (max-device-width : 662px) {
 .rounded-btn-blue {
     border-radius: 25px;
     background-color: #056DAE;
-    font-size: 2em;
+    font-size: 1.8em;
     padding: 10px 30px;
     color: white;
     border:none;
@@ -86,7 +144,7 @@ and (max-device-width : 662px) {
 .rounded-btn-blue:disabled {
   border-radius: 25px;
   background-color: lightgray;
-  font-size: 2em;
+  font-size: 1.8em;
   padding: 10px 30px;
   color: white;
   border:none;
@@ -118,8 +176,8 @@ and (max-device-width : 662px) {
 }
 
 @media only screen 
-and (min-device-width : 300px) 
-and (max-device-width : 662px) {
+and (min-width : 300px) 
+and (max-width : 662px) {
     .selector-box {
       font-size: 25px;
   }
@@ -147,9 +205,12 @@ and (max-device-width : 662px) {
 /* checkbox styling for major */
 
 .check-box {
+  height:300px;
+  width:100%;
   margin-bottom: 3em;
   font-size: 3em;
   text-align:left;
+  /* clear:both; */
 }
 
 

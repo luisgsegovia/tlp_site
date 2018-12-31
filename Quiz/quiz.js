@@ -56,6 +56,9 @@ function showTab(n) {
   // ... and fix the Previous/Next buttons:
   if (n == 0) {
     document.getElementById("prevBtn").style.display = "none";
+    $(".hero-image").addClass("mobile-background-image-1");
+    $(".hero-image").removeClass("mobile-background-image-3");
+    $(".hero-image").removeClass("mobile-background-image-2");
   } else if (n == (x.length - 1)) {
     //turn the button back on
     $("#nextBtn").prop('disabled', false);
@@ -71,8 +74,15 @@ function showTab(n) {
       $("#regForm").css("margin", "auto");
       $("#regForm").css("padding", "0");
     }
-  } else {
+  } else if (n == 1) {
     document.getElementById("prevBtn").style.display = "inline";
+    $(".hero-image").addClass("mobile-background-image-2");
+    $(".hero-image").removeClass("mobile-background-image-3");
+    $(".hero-image").removeClass("mobile-background-image-1");
+  } else {
+    $(".hero-image").addClass("mobile-background-image-3");
+    $(".hero-image").removeClass("mobile-background-image-2");
+    $(".hero-image").removeClass("mobile-background-image-1");
   }
 
   if (n == (x.length - 1)) {
@@ -210,27 +220,27 @@ function getRadioVal(form, name) {
 }
 
 
-let menuIcon = document.querySelector('.menuIcon');
-let nav = document.querySelector('.overlay-menu');
+// let menuIcon = document.querySelector('.menuIcon');
+// let nav = document.querySelector('.overlay-menu');
 
-menuIcon.addEventListener('click', () => {
-    if (nav.style.transform != 'translateX(0%)') {
-        nav.style.transform = 'translateX(0%)';
-        nav.style.transition = 'transform 0.2s ease-out';
-    } else { 
-        nav.style.transform = 'translateX(-100%)';
-        nav.style.transition = 'transform 0.2s ease-out';
-    }
-});
+// menuIcon.addEventListener('click', () => {
+//     if (nav.style.transform != 'translateX(0%)') {
+//         nav.style.transform = 'translateX(0%)';
+//         nav.style.transition = 'transform 0.2s ease-out';
+//     } else { 
+//         nav.style.transform = 'translateX(-100%)';
+//         nav.style.transition = 'transform 0.2s ease-out';
+//     }
+// });
 
 
-// Toggle Menu Icon ========================================
-let toggleIcon = document.querySelector('.menuIcon');
+// // Toggle Menu Icon ========================================
+// let toggleIcon = document.querySelector('.menuIcon');
 
-toggleIcon.addEventListener('click', () => {
-    if (toggleIcon.className != 'menuIcon toggle') {
-        toggleIcon.className += ' toggle';
-    } else {
-        toggleIcon.className = 'menuIcon';
-    }
-});
+// toggleIcon.addEventListener('click', () => {
+//     if (toggleIcon.className != 'menuIcon toggle') {
+//         toggleIcon.className += ' toggle';
+//     } else {
+//         toggleIcon.className = 'menuIcon';
+//     }
+// });
