@@ -88,10 +88,11 @@ and (max-width : 662px) {
 
 /* Page Styling */
 .splash-logo {
-    width:123px;
+    width:80px;
     float: left !important; 
     margin: 30px;
 }
+
 
 .form-area {
   height:100vh;
