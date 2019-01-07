@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="tep.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="../Bootstrap/js/bootstrap.min.js"></script> 
     <script type="text/javascript"src="tep.js"></script>
     <title>Technology Engineering Program</title>
@@ -287,8 +288,43 @@
                                     <!-- Wrapped into div -->
                                     <div class="details">
                                             <h3 class="interstate-bold ">Take a Coding Test</h3>
-                                            <h4 class="interstate overflow">For those seeking software engineering roles, don’t wait for us to reach out! The best way to get our attention is by acing one of these tests, which you can take at any time.</h4>
-                                            <a class="button-styling interstate-bold" href="#">Take The Test</a>
+                                            <h4 class="interstate overflow">The first step of our hiring process is a technical assesment via HackerRank. These take about an hour, and you can take this anytime you like! Never used HackerRank before? Start here with a <a href="https://www.hackerrank.com/tests/sample">sample test.</a></h4>
+                                            
+
+                                            <style>
+                                                    .dropdown {
+                                                      position: relative;
+                                                      display: inline-block;
+                                                    }
+                                                    
+                                                    .dropdown-content {
+                                                      display: none;
+                                                      position: absolute;
+                                                      background-color: #f9f9f9;
+                                                      min-width: 160px;
+                                                      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                                      padding: 12px 16px;
+                                                      z-index: 1;
+                                                    }
+                                                    
+                                                    .dropdown:hover .dropdown-content {
+                                                      display: block;
+                                                    }
+                                            </style>
+
+                                            <div class="dropdown">
+                                                    <span class="button-styling">Choose A Test <i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                                    <div class="dropdown-content">
+                                                    <a target="_blank" href="http://hr.gs/citi-ios">iOS Test</a><br>
+                                                    <a target="_blank" href="http://hr.gs/citi-ios">Android Test</a><br>
+                                                    <a target="_blank" href="http://hr.gs/citi-ios">Angular/Javascript Test</a><br>
+                                                    <a target="_blank" href="http://hr.gs/citi-ios">Java Test</a><br>
+                                                    </div>
+                                                </div>
+
+
+
+
                                     </div>
                                 </li>
                             <li>

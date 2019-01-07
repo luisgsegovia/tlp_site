@@ -622,7 +622,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .hiring-image {
         background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
         background-color: white; /* Used if the image is unavailable */
-        height: 110vh; /* You must set a specified height */
+        height: 100%; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: contain; /* Resize the background image to cover the entire container */
@@ -759,7 +759,7 @@ src: url("../Fonts/Interstate_Light.ttf");
     .hiring-image {
         background-image: url("Backgrounds/Desktop/Hiring_Background.png"); /* The image used */
         background-color: white; /* Used if the image is unavailable */
-        height: 110vh; /* You must set a specified height */
+        height: 100%; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: contain; /* Resize the background image to cover the entire container */
@@ -790,8 +790,8 @@ src: url("../Fonts/Interstate_Light.ttf");
     #wrapper ul {
         padding: 0;
         margin: auto;
-        width: 100% !important;
-        margin-left: 50%;
+        width: 90% !important;
+        margin-left: 20%;
         list-style-type: none;
     }
 
