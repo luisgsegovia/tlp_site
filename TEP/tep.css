@@ -709,8 +709,13 @@ src: url("../Fonts/Interstate_Light.ttf");
         width: 100%;
     }
 
+    .list-margin-traits { 
+        margin-left: 50%;
+    } 
+
     .list-margin-hiring { 
         margin-left: 50%;
+        margin-right: 10%;
     } 
 
     .list-margin-benefits {
@@ -847,8 +852,13 @@ src: url("../Fonts/Interstate_Light.ttf");
         width: 100%;
     }
 
+    .list-margin-traits { 
+        margin-left: 50%;
+    } 
+
     .list-margin-hiring { 
         margin-left: 50%;
+        margin-right: 10%;
     } 
 
     .list-margin-benefits {
